@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"CCC",
+		" B ",
+		" B "
+	],
+	"key":
+	{
+		"C":
+			{"item": "minecraft:conduit"},
+		"B":
+			{"item": "minecraft:diamond_block"}
+	},
+	"redult":
+	{
+		"item": "minecraft:trident",
+		"count": 1
+	}
+}
