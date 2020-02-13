@@ -1,0 +1,45 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"LLL",
+		"L L",
+		"LLL"
+	],
+	"key":
+	{
+		"L":
+			[
+				{"item": "minecraft:oak_log"},
+				{"item": "minecraft:spruce_log"},
+				{"item": "minecraft:birch_log"},
+				{"item": "minecraft:jungle_log"},
+				{"item": "minecraft:acacia_log"},
+				{"item": "minecraft:dark_oak_log"},
+				{"item": "minecraft:stripped_oak_log"},
+				{"item": "minecraft:stripped_spruce_log"},
+				{"item": "minecraft:stripped_birch_log"},
+				{"item": "minecraft:stripped_jungle_log"},
+				{"item": "minecraft:stripped_acacia_log"},
+				{"item": "minecraft:stripped_dark_oak_log"},
+				{"item": "minecraft:oak_wood"},
+				{"item": "minecraft:spruce_wood"},
+				{"item": "minecraft:birch_wood"},
+				{"item": "minecraft:jungle_wood"},
+				{"item": "minecraft:acacia_wood"},
+				{"item": "minecraft:dark_oak_wood"},
+				{"item": "minecraft:stripped_oak_wood"},
+				{"item": "minecraft:stripped_spruce_wood"},
+				{"item": "minecraft:stripped_birch_wood"},
+				{"item": "minecraft:stripped_jungle_wood"},
+				{"item": "minecraft:stripped_acacia_wood"},
+				{"item": "minecraft:stripped_dark_oak_wood"}
+			]
+				
+	},
+	"result":
+	{
+		"item": "minecraft:chest",
+		"count": 4
+	}
+}
