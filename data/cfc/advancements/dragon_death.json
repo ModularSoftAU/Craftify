@@ -6,6 +6,7 @@
 		"description": {"text": "Free the End!"},
 		"hidden": "true"
 	},
+	"parent": "cfc:root"
 	"criteria":
 	{
 		"kill":
