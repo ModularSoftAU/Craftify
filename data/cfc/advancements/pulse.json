@@ -1,7 +1,11 @@
 {
+	"parent": "cfc:root",
 	"criteria":
 	{
-		"trigger": "minecraft:tick"
+		"pulse":
+		{
+			"trigger": "minecraft:tick"
+		}
 	},
 	"rewards":
 	{
