@@ -1,0 +1,51 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "item",
+					"functions":
+					[
+						{
+							"function": "fill_player_head",
+							"entity": "this"
+						}
+					],
+					"name": "minecraft:player_head"
+				}
+			],
+			"conditions":
+			[
+				{
+					"condition": "entity_properties",
+					"entity": "killer",
+					"predicate":
+					{
+						"type": "minecraft:player",
+						"equipment":
+						{
+							"mainhand":
+							{
+								"item": "minecraft:golden_axe",
+								"enchantments":
+								[
+									{
+										"enchantment": "minecraft:sharpness",
+										"levels": 5
+									},
+									{
+										"enchantment": "minecraft:fortune",
+										"levels": 3
+									}
+								]
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}
