@@ -1,0 +1,10 @@
+{
+	"criteria":
+	{
+		"trigger": "minecraft:tick"
+	},
+	"rewards":
+	{
+		"function": "cfc:pulse"
+	}
+}
