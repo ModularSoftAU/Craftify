@@ -2,16 +2,16 @@
 	"type": "minecraft:crafting_shaped",
 	"pattern":
 	[
-		"CCC",
-		" B ",
-		" B "
+		"SSS",
+		" C ",
+		" C "
 	],
 	"key":
 	{
 		"C":
 			{"item": "minecraft:conduit"},
-		"B":
-			{"item": "minecraft:diamond_block"}
+		"S":
+			{"item": "minecraft:diamond_sword"}
 	},
 	"result":
 	{
