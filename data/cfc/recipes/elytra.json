@@ -3,8 +3,8 @@
 	"pattern":
 	[
 		"MEM",
-		"MCM",
-		"MSM"
+		"MDM",
+		"MCM"
 	],
 	"key":
 	{
@@ -12,10 +12,10 @@
 			{"item": "minecraft:phantom_membrane"},
 		"E":
 			{"item": "minecraft:ender_eye"},
-		"C":
+		"D":
 			{"item": "minecraft:diamond_chestplate"},
-		"S":
-			{"item": "minecraft:nether_star"}
+		"C":
+			{"item": "minecraft:end_crystal"}
 	},
 	"result":
 	{
