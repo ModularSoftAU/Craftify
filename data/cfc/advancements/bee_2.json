@@ -5,7 +5,7 @@
 		"icon": {"item": "minecraft:bee_nest"},
 		"title": {"text": "2 Bees"},
 		"description": {"text": "Two bees in this hive"},
-		"hidden": "true",
+		"hidden": true,
 		"announce_to_chat": false,
 		"show_toast": true
 	},
@@ -19,6 +19,6 @@
 	},
 	"rewards":
 	{
-		"function": "cfc:bee"
+		"function": "cfc:bee_2"
 	}
 }
