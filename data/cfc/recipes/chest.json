@@ -33,7 +33,16 @@
 				{"item": "minecraft:stripped_birch_wood"},
 				{"item": "minecraft:stripped_jungle_wood"},
 				{"item": "minecraft:stripped_acacia_wood"},
-				{"item": "minecraft:stripped_dark_oak_wood"}
+				{"item": "minecraft:stripped_dark_oak_wood"},
+				
+				{"item": "minecraft:crimson_stem"},
+				{"item": "minecraft:warped_stem"},
+				{"item": "minecraft:stripped_crimson_stem"},
+				{"item": "minecraft:stripped_warped_stem"},
+				{"item": "minecraft:crimson_hyphae"},
+				{"item": "minecraft:warped_hyphae"},
+				{"item": "minecraft:stripped_crimson_hyphae"},
+				{"item": "minecraft:stripped_warped_hyphae"}
 			]
 				
 	},
