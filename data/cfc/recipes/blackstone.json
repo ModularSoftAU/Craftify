@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"BCB",
+		"CBC",
+		"BCB"
+	],
+	"key":
+	{
+		"B":
+			{"item": "minecraft:basalt"},
+		"C":
+			{"item": "minecraft:cobblestone"}
+	},
+	"result":
+	{
+		"item": "minecraft:blackstone",
+		"count": 4
+	}
+}
