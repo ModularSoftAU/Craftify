@@ -1,0 +1,24 @@
+{
+	"parent": "cfc:root",
+	"criteria":
+	{
+		"end_crystal":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": 
+				[
+					{
+						"item": "minecraft:end_crystal",
+						"count": 1
+					}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"recipes": ["cfc:elytra"]
+	}
+}
