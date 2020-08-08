@@ -1,0 +1,24 @@
+{
+	"parent": "cfc:root",
+	"criteria":
+	{
+		"cobweb":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": 
+				[
+					{
+						"item": "minecraft:cobweb",
+						"count": 1
+					}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"recipes": ["cfc:cobweb"]
+	}
+}
