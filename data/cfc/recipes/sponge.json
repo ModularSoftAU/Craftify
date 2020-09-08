@@ -3,7 +3,7 @@
 	"pattern":
 	[
 		"BCB",
-		"CBC",
+		"CSC",
 		"BCB"
 	],
 	"key":
@@ -23,11 +23,16 @@
 				{"item": "minecraft:bubble_coral"},
 				{"item": "minecraft:fire_coral"},
 				{"item": "minecraft:horn_coral"}
+			],
+		"S": 
+			[
+				{"item": "minecraft:wet_sponge"},
+				{"item": "minecraft:sponge"}
 			]
 	},
 	"result":
 	{
 		"item": "minecraft:sponge",
-		"count": 1
+		"count": 4
 	}
 }
