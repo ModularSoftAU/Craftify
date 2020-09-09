@@ -1,5 +1,5 @@
 {
-	"parent": "cfc:root",
+	"parent": "cfc:bee_2",
 	"display":
 	{
 		"icon": {"item": "minecraft:bee_nest"},

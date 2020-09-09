@@ -1,0 +1,24 @@
+{
+	"parent": "cfc:root",
+	"criteria":
+	{
+		"gilded_blackstone":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": 
+				[
+					{
+						"item": "minecraft:gilded_blackstone",
+						"count": 1
+					}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"recipes": ["cfc:gilded_blackstone"]
+	}
+}

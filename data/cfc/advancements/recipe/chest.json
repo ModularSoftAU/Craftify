@@ -1,0 +1,24 @@
+{
+	"parent": "cfc:root",
+	"criteria":
+	{
+		"chest":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": 
+				[
+					{
+						"item": "minecraft:chest",
+						"count": 4
+					}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"recipes": ["cfc:chest"]
+	}
+}
