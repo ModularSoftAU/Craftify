@@ -1,0 +1,43 @@
+{
+	"parent": "cfc:root",
+	"criteria":
+	{
+		"diamond":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": 
+				[
+					{
+						"item": "minecraft:diamond"
+					}
+				]
+			}
+		},
+		"ore":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": 
+				[
+					{
+						"item": "minecraft:diamond_ore"
+					}
+				]
+			}
+		}
+	},
+	"requirements":
+	[
+		[
+			"diamond",
+			"ore"
+		]
+	],
+	"rewards":
+	{
+		"function": "cfc:diamond"
+	}
+}
