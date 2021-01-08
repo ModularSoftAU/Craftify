@@ -1,0 +1,24 @@
+{
+	"parent": "cfc:root",
+	"criteria":
+	{
+		"rotten_flesh":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": 
+				[
+					{
+						"item": "minecraft:rotten_flesh",
+						"count": 9
+					}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"recipes": ["cfc:rotten_flesh"]
+	}
+}

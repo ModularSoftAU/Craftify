@@ -1,0 +1,28 @@
+{
+	"parent": "cfc:root",
+	"criteria":
+	{
+		"blue_ice":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": 
+				[
+					{
+						"item": "minecraft:blue_ice",
+						"count": 1
+					}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"recipes":
+		[
+			"cfc:uncraft_blue_ice",
+			"cfc:uncraft_packed_ice"
+		]
+	}
+}

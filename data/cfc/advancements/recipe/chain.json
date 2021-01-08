@@ -1,0 +1,30 @@
+{
+	"parent": "cfc:root",
+	"criteria":
+	{
+		"chain":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": 
+				[
+					{
+						"item": "minecraft:chain",
+						"count": 1
+					}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"recipes": 
+		[
+			"cfc:chainmail_helmet",
+			"cfc:chainmail_chestplate",
+			"cfc:chainmail_leggings",
+			"cfc:chainmail_boots"
+		]
+	}
+}

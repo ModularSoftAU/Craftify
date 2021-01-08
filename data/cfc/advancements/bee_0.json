@@ -1,0 +1,24 @@
+{
+	"parent": "cfc:root",
+	"display":
+	{
+		"icon": {"item": "minecraft:bee_nest"},
+		"title": {"text": "Empty"},
+		"description": {"text": "No bees in this hive"},
+		"hidden": true,
+		"announce_to_chat": false,
+		"show_toast": true
+	},
+	"criteria":
+	{
+		"0":
+		{
+			"trigger": "minecraft:bee_nest_destroyed",
+			"conditions": {"num_bees_inside": 0}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bee_0"
+	}
+}

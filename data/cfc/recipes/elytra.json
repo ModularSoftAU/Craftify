@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"MEM",
+		"MDM",
+		"MCM"
+	],
+	"key":
+	{
+		"M":
+			{"item": "minecraft:phantom_membrane"},
+		"E":
+			{"item": "minecraft:ender_eye"},
+		"D":
+			{"item": "minecraft:diamond_chestplate"},
+		"C":
+			{"item": "minecraft:end_crystal"}
+	},
+	"result":
+	{
+		"item": "minecraft:elytra",
+		"count": 1
+	}
+}

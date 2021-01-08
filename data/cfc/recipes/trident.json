@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"SSS",
+		" C ",
+		" C "
+	],
+	"key":
+	{
+		"C":
+			{"item": "minecraft:conduit"},
+		"S":
+			{"item": "minecraft:diamond_sword"}
+	},
+	"result":
+	{
+		"item": "minecraft:trident",
+		"count": 1
+	}
+}

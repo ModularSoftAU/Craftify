@@ -1,0 +1,44 @@
+{
+	"parent": "cfc:root",
+	"criteria":
+	{
+		"dispenser":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": 
+				[
+					{
+						"item": "minecraft:dispenser",
+						"count": 1
+					}
+				]
+			},
+		"dropper":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": 
+				[
+					{
+						"item": "minecraft:dropper",
+						"count": 1
+					}
+				]
+			}
+		}
+	},
+	"requirements":
+	[
+		[
+			"dispenser",
+			"dropper"
+		]
+	],
+	"rewards":
+	{
+		"recipes": ["cfc:dispenser"]
+	}
+}

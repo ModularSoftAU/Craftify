@@ -1,0 +1,24 @@
+{
+	"parent": "cfc:bee_0",
+	"display":
+	{
+		"icon": {"item": "minecraft:bee_nest"},
+		"title": {"text": "1 Bee"},
+		"description": {"text": "One bee in this hive"},
+		"hidden": true,
+		"announce_to_chat": false,
+		"show_toast": true
+	},
+	"criteria":
+	{
+		"0":
+		{
+			"trigger": "minecraft:bee_nest_destroyed",
+			"conditions": {"num_bees_inside": 1}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bee_1"
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:gold_block"},
+		"title": {"text": "Crafting For Christ"},
+		"description": {"text": "Welcome to the CFC SMP Server"},
+		"background": "minecraft:textures/block/stripped_oak_log_top.png"
+	},
+	"criteria":
+	{
+		"instant":
+		{
+			"trigger": "minecraft:tick"
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:setup"
+	}
+}
