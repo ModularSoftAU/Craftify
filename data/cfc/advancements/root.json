@@ -15,6 +15,6 @@
 	},
 	"rewards":
 	{
-		"function": "cfc:setup"
+		"function": "cfc:welcome"
 	}
 }
