@@ -1,4 +1,4 @@
-give @s leather_healmet
+give @s leather_helmet
 give @s leather_chestplate
 give @s leather_leggings
 give @s leather_boots
