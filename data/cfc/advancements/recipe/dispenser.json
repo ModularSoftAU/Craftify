@@ -14,7 +14,8 @@
 						"count": 1
 					}
 				]
-			},
+			}
+		},
 		"dropper":
 		{
 			"trigger": "minecraft:inventory_changed",
