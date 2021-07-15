@@ -9,10 +9,7 @@
 			{
 				"items": 
 				[
-					{
-						"item": "minecraft:blackstone",
-						"count": 1
-					}
+					{"items": ["minecraft:blackstone"]}
 				]
 			}
 		}
