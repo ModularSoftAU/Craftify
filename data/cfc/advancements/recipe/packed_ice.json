@@ -9,10 +9,7 @@
 			{
 				"items": 
 				[
-					{
-						"item": "minecraft:packed_ice",
-						"count": 1
-					}
+					{"items": ["minecraft:packed_ice"]}
 				]
 			}
 		}
