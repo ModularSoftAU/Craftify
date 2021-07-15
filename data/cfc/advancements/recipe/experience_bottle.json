@@ -9,10 +9,7 @@
 			{
 				"items": 
 				[
-					{
-						"item": "minecraft:experience_bottle",
-						"count": 1
-					}
+					{"items": ["minecraft:experience_bottle"]}
 				]
 			}
 		}
