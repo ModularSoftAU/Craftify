@@ -1,0 +1,18 @@
+{
+	"parent": "cfc:root",
+	"criteria":
+	{
+		"light":
+		{
+			"trigger": "minecraft:enter_block",
+			"conditions":
+			{
+				"block": "minecraft:light"
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:warp/light"
+	}
+}
