@@ -10,7 +10,7 @@
 				"items": 
 				[
 					{
-						"item": "minecraft:flint",
+						"items": ["minecraft:flint"],
 						"count": 4
 					}
 				]
