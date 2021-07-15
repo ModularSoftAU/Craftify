@@ -9,10 +9,7 @@
 			{
 				"items": 
 				[
-					{
-						"item": "minecraft:dragon_egg",
-						"count": 1
-					}
+					{"items": ["minecraft:dragon_egg"]}
 				]
 			}
 		}
