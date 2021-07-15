@@ -24,25 +24,7 @@
 					"entity": "killer",
 					"predicate":
 					{
-						"type": "minecraft:player",
-						"equipment":
-						{
-							"mainhand":
-							{
-								"item": "minecraft:golden_axe",
-								"enchantments":
-								[
-									{
-										"enchantment": "minecraft:sharpness",
-										"levels": 5
-									},
-									{
-										"enchantment": "minecraft:fortune",
-										"levels": 3
-									}
-								]
-							}
-						}
+						"type": "minecraft:player"
 					}
 				}
 			]
