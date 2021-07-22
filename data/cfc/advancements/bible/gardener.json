@@ -1,0 +1,187 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:peony"},
+		"title": {"text": "Gardener of Eden"},
+		"description": {"text": "Build a beautiful garden"},
+		"frame": "challenge"
+	},
+	"parent": "cfc:bible/tree_of_life",
+	"criteria":
+	{
+		"oak":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:oak_sapling"}
+		}
+		,"spruce":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:spruce_sapling"}
+		}
+		,"birch":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:birch_sapling"}
+		}
+		,"jungle":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:jungle_sapling"}
+		}
+		,"acacia":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:acacia_sapling"}
+		}
+		,"dark_oak":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:dark_oak_sapling"}
+		}
+		,"azalea":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:azalea"}
+		}
+		,"flowering_azalea":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:flowering_azalea"}
+		}
+		,"dandelion":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:dandelion"}
+		}
+		,"poppy":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:poppy"}
+		}
+		,"blue_orchid":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:blue_orchid"}
+		}
+		,"allium":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:allium"}
+		}
+		,"azure_bluet":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:azure_bluet"}
+		}
+		,"red_tulip":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:red_tulip"}
+		}
+		,"orange_tulip":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:orange_tulip"}
+		}
+		,"white_tulip":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:white_tulip"}
+		}
+		,"pink_tulip":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:pink_tulip"}
+		}
+		,"oxeye_daisy":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:oxeye_daisy"}
+		}
+		,"cornflower":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:cornflower"}
+		}
+		,"lily_of_the_valley":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:lily_of_the_valley"}
+		}
+		,"sunflower":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:sunflower"}
+		}
+		,"lilac":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:lilac"}
+		}
+		,"rose_bush":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:rose_bush"}
+		}
+		,"peony":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:peony"}
+		}
+		,"grass":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:grass"}
+		}
+		,"fern":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:fern"}
+		}
+		,"vine":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:vine"}
+		}
+		,"lily_pad":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:lily_pad"}
+		}
+		,"sweet_berry_bush":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:sweet_berry_bush"}
+		}
+		,"sugar_cane":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:sugar_cane"}
+		}
+		,"bamboo":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:bamboo_sapling"}
+		}
+		,"cactus":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:cactus"}
+		}
+		,"mushroom_1":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:brown_mushroom"}
+		}
+		,"mushroom_2":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:red_mushroom"}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

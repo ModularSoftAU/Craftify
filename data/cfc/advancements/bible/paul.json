@@ -1,0 +1,22 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:leather_boots"},
+		"title": {"text": "Paul's Traveling Companion"},
+		"description": {"text": "Paul traveled a long way. You've made it 10% of the way"},
+		"hidden": "true",
+		"frame": "challenge"
+	},
+	"parent": "cfc:bible/ascension",
+	"criteria":
+	{
+		"walk":
+		{
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

@@ -1,0 +1,186 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:music_disc_cat"},
+		"title": {"text": "Make a Joyful Noise"},
+		"description": {"text": "Make a joyful noise to the Lord"}
+	},
+	"parent": "cfc:bible/spirit",
+	"criteria":
+	{
+		"note_block":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:note_block"],
+						"count": 1 
+					}
+				]
+			}
+		}
+		,"jukebox":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:jukebox"],
+						"count": 1 
+					}
+				]
+			}
+		}
+		,"bell":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:bell"],
+						"count": 1 
+					}
+				]
+			}
+		}
+		,"13":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[{"items": ["minecraft:music_disc_13"]}]
+			}
+		}
+		,"cat":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[{"items": ["minecraft:music_disc_cat"]}]
+			}
+		}
+		,"blocks":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[{"items": ["minecraft:music_disc_blocks"]}]
+			}
+		}
+		,"chirp":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[{"items": ["minecraft:music_disc_chirp"]}]
+			}
+		}
+		,"far":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[{"items": ["minecraft:music_disc_far"]}]
+			}
+		}
+		,"mall":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[{"items": ["minecraft:music_disc_mall"]}]
+			}
+		}
+		,"mellohi":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[{"items": ["minecraft:music_disc_mellohi"]}]
+			}
+		}
+		,"stal":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[{"items": ["minecraft:music_disc_stal"]}]
+			}
+		}
+		,"strad":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[{"items": ["minecraft:music_disc_strad"]}]
+			}
+		}
+		,"ward":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[{"items": ["minecraft:music_disc_ward"]}]
+			}
+		}
+		,"11":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[{"items": ["minecraft:music_disc_11"]}]
+			}
+		}
+		,"wait":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[{"items": ["minecraft:music_disc_wait"]}]
+			}
+		}
+	},
+	"requirements":
+	[
+		[
+			"note_block"
+			,"jukebox"
+			,"bell"
+			,"13"
+			,"cat"
+			,"blocks"
+			,"chirp"
+			,"far"
+			,"mall"
+			,"mellohi"
+			,"stal"
+			,"strad"
+			,"ward"
+			,"11"
+			,"wait"
+		]
+	],
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

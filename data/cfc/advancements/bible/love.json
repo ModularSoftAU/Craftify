@@ -1,0 +1,20 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:rose_bush"},
+		"title": {"text": "Love"},
+		"description": {"text": "Make a friend"}
+	},
+	"parent": "cfc:bible/spirit",
+	"criteria":
+	{
+		"friend":
+		{
+			"trigger": "minecraft:tame_animal"
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:porkchop"},
+		"title": {"text": "Legion"},
+		"description": {"text": "Cast out the demons into the pigs"}
+	},
+	"parent": "cfc:bible/sower",
+	"criteria":
+	{
+		"pork":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:porkchop"],
+						"count": 64
+					}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

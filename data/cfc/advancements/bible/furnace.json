@@ -1,0 +1,24 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:campfire"},
+		"title": {"text": "Firery Furnace"},
+		"description": {"text": "Stand unafraid"}
+	},
+	"parent": "cfc:bible/graven",
+	"criteria":
+	{
+		"fire":
+		{
+			"trigger": "minecraft:enter_block",
+			"conditions":
+			{
+				"block": "minecraft:fire"
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

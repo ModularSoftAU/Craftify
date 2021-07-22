@@ -1,0 +1,126 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:ice"},
+		"title": {"text": "Walking on water"},
+		"description": {"text": "Is that cheating?"}
+	},
+	"parent": "cfc:bible/5000",
+	"criteria":
+	{
+		"leather":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:leather_boots"],
+						"enchantments":
+						[
+							{
+								"enchantment": "minecraft:frost_walker",
+								"levels": {"min": 2}
+							}
+						]
+					}
+				]
+			}
+		}
+		,"chainmail":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:chainmail_boots"],
+						"enchantments":
+						[
+							{
+								"enchantment": "minecraft:frost_walker",
+								"levels": {"min": 2}
+							}
+						]
+					}
+				]
+			}
+		}
+		,"iron":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:iron_boots"],
+						"enchantments":
+						[
+							{
+								"enchantment": "minecraft:frost_walker",
+								"levels": {"min": 2}
+							}
+						]
+					}
+				]
+			}
+		}
+		,"diamond":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:diamond_boots"],
+						"enchantments":
+						[
+							{
+								"enchantment": "minecraft:frost_walker",
+								"levels": {"min": 2}
+							}
+						]
+					}
+				]
+			}
+		}
+		,"golden":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:golden_boots"],
+						"enchantments":
+						[
+							{
+								"enchantment": "minecraft:frost_walker",
+								"levels": {"min": 2}
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements":
+	[
+		[
+			"leather"
+			,"chainmail"
+			,"iron"
+			,"diamond"
+			,"golden"
+		]
+	],
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

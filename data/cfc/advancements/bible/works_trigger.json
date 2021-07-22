@@ -1,0 +1,14 @@
+{
+	"parent": "cfc:bible/root",
+	"criteria":
+	{
+		"advancement":
+		{
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/works_trigger_0"
+	}
+}

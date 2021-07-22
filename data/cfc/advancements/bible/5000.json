@@ -1,0 +1,34 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:bread"},
+		"title": {"text": "Feeding 5000"},
+		"description": {"text": "Or just eat it all yourself"}
+	},
+	"parent": "cfc:bible/legion",
+	"criteria":
+	{
+		"cod":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["cod","cooked_cod","salmon","cooked_salmon"],
+						"count": 2
+					},
+					{
+						"items": ["minecraft:bread"],
+						"count": 5
+					}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

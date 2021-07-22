@@ -1,0 +1,24 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:water_bucket"},
+		"title": {"text": "Baptism"},
+		"description": {"text": "Be baptised in the name of the Lord"}
+	},
+	"parent": "cfc:bible/light_world",
+	"criteria":
+	{
+		"water":
+		{
+			"trigger": "minecraft:enter_block",
+			"conditions":
+			{
+				"block": "minecraft:water"
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

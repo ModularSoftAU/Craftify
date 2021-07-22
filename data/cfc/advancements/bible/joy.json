@@ -1,0 +1,30 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:firework_rocket"},
+		"title": {"text": "Joy"},
+		"description": {"text": "Show your joy"}
+	},
+	"parent": "cfc:bible/love",
+	"criteria":
+	{
+		"firework":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": 
+				[
+					{
+						"items": ["minecraft:firework_rocket"],
+						"count": 64
+					}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

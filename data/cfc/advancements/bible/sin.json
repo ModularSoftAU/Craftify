@@ -1,0 +1,25 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:apple"},
+		"title": {"text": "Sin"},
+		"description": {"text": "It probably wasn't an apple"},
+		"hidden": "true"
+	},
+	"parent": "cfc:bible/root",
+	"criteria":
+	{
+		"apple":
+		{
+			"trigger": "minecraft:consume_item",
+			"conditions":
+			{
+				"item": {"items": ["minecraft:apple"]}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

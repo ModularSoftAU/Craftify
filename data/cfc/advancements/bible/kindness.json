@@ -1,0 +1,33 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:diamond_block"},
+		"title": {"text": "Kindness"},
+		"description": {"text": "A generous donation"}
+	},
+	"parent": "cfc:bible/patience",
+	"criteria":
+	{
+		"diamonds_to_you":
+			{
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions":
+			{
+				"item": {"items": ["minecraft:diamond_block"]},
+				"entity":
+				[
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": 
+							{"cfc_kind_throw": 0}
+					}
+				]
+			}
+		} 
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

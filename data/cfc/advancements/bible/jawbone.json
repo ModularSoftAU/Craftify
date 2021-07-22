@@ -1,0 +1,32 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:skeleton_skull"},
+		"title": {"text": "Jawbone of an Ass"},
+		"description": {"text": "Judges 15:15"}
+	},
+	"parent": "cfc:bible/tentpeg",
+	"criteria":
+	{
+		"skeleton_skull":
+		{
+			"trigger": "minecraft:player_killed_entity",
+			"conditions":
+			{
+				"entity":
+				{"type": "player"},
+				"killing_blow":
+				{
+					"source_entity":
+					{
+						"nbt": "{SelectedItem:{id:\"minecraft:skeleton_skull\"}}"
+					}
+				}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

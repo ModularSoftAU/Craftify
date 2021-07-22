@@ -1,0 +1,15 @@
+{
+    "display": 
+	{
+        "icon": {"item": "minecraft:enchanted_book"},
+        "title": {"text":"James 1:12"},
+        "description": {"text":"In The Beginning..."},
+		"background": "minecraft:textures/block/stripped_birch_log.png",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": 
+	{
+        "instant": {"trigger": "minecraft:tick"}
+    }
+}

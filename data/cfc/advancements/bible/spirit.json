@@ -1,0 +1,24 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:golden_apple"},
+		"title": {"text": "Fruit of the spirit"},
+		"description": {"text": "Since we live by the Spirit, let us walk in step with the Spirit"}
+	},
+	"parent": "cfc:bible/root",
+	"criteria":
+	{
+		"golden_apple":
+		{
+			"trigger": "minecraft:consume_item",
+			"conditions":
+			{
+				"item": {"items": ["minecraft:golden_apple"]}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

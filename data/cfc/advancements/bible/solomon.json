@@ -1,0 +1,66 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:gold_block"},
+		"title": {"text": "King Solomon"},
+		"description": {"text": "Gain the wealth of Solomon"},
+		"frame": "challenge"
+	},
+	"parent": "cfc:bible/psalmist",
+	"criteria":
+	{
+		"solomon":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:netherite_block"],
+						"count": {"min": 1}
+					},
+					{
+						"items": ["minecraft:diamond_block"],
+						"count": {"min": 8}
+					},
+					{
+						"items": ["minecraft:gold_block"],
+						"count": {"min": 16}
+					},
+					{
+						"items": ["minecraft:quartz_block"],
+						"count": {"min": 32}
+					},
+					{
+						"items": ["minecraft:emerald_block"],
+						"count": {"min": 16}
+					},
+					{
+						"items": ["minecraft:lapis_block"],
+						"count": {"min": 32}
+					},
+					{
+						"items": ["minecraft:totem_of_undying"]
+					},
+					{
+						"items": ["minecraft:netherite_helmet"]
+					},
+					{
+						"items": ["minecraft:netherite_chestplate"]
+					},
+					{
+						"items": ["minecraft:netherite_leggings"]
+					},
+					{
+						"items": ["minecraft:netherite_boots"]
+					}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

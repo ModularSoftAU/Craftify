@@ -1,0 +1,76 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:feather"},
+		"title": {"text": "Gentleness"},
+		"description": {"text": "Use a gentle touch"}
+	},
+	"parent": "cfc:bible/faithfulness",
+	"criteria":
+	{
+		"pick":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:diamond_pickaxe"],
+						"enchantments":
+						[{"enchantment": "minecraft:silk_touch"}]
+					}
+				]
+			}
+		}
+		,"shovel":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:diamond_shovel"],
+						"enchantments":
+						[{"enchantment": "minecraft:silk_touch"}]
+					}
+				]
+			}
+		}
+		,"axe":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:diamond_axe"],
+						"enchantments":
+						[{"enchantment": "minecraft:silk_touch"}]
+					}
+				]
+			}
+		}
+		,"hoe":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:diamond_hoe"],
+						"enchantments":
+						[{"enchantment": "minecraft:silk_touch"}]
+					}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

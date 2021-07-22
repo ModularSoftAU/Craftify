@@ -1,0 +1,55 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:stone_button"},
+		"title": {"text": "David v. Goliath"},
+		"description": {"text": "Slay the giant with a pebble"}
+	},
+	"parent": "cfc:bible/locusts",
+	"criteria":
+	{
+		"enderman":
+		{
+			"trigger": "minecraft:player_killed_entity",
+			"conditions":
+			{
+				"entity":
+				{"type": "enderman"},
+				"killing_blow":
+				{
+					"source_entity":
+					{
+						"nbt": "{SelectedItem:{id:\"minecraft:stone_button\"}}"
+					}
+				}
+			}
+		}
+		,"golem":
+		{
+			"trigger": "minecraft:player_killed_entity",
+			"conditions":
+			{
+				"entity":
+				{"type": "iron_golem"},
+				"killing_blow":
+				{
+					"source_entity":
+					{
+						"nbt": "{SelectedItem:{id:\"minecraft:stone_button\"}}"
+					}
+				}
+			}
+		}
+	},
+	"requirements":
+	[
+		[
+			"enderman",
+			"golem"
+		]
+	],
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:emerald"},
+		"title": {"text": "Goodness"},
+		"description": {"text": "Help the people"}
+	},
+	"parent": "cfc:bible/kindness",
+	"criteria":
+	{
+		"hero":
+		{
+			"trigger": "minecraft:hero_of_the_village",
+			"conditions":
+			{"dimension": "minecraft:overworld"}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

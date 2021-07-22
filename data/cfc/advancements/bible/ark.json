@@ -1,0 +1,241 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:oak_boat"},
+		"title": {"text": "The Ark"},
+		"description": {"text": "Put them in boats and repopulate the world!"},
+		"frame": "goal"
+	},
+	"parent": "cfc:bible/root",
+	"criteria":
+	{
+		"bee":
+		{
+			"trigger": "minecraft:bred_animals",
+			"conditions":
+			{
+				"child":
+				{
+					"type": "minecraft:bee"
+				}
+			}
+		},
+		"horse":
+		{
+			"trigger": "minecraft:bred_animals",
+			"conditions":
+			{
+				"child":
+				{
+					"type": "minecraft:horse"
+				}
+			}
+		},
+		"donkey":
+		{
+			"trigger": "minecraft:bred_animals",
+			"conditions":
+			{
+				"child":
+				{
+					"type": "minecraft:donkey"
+				}
+			}
+		},
+		"mule":
+		{
+			"trigger": "minecraft:bred_animals",
+			"conditions":
+			{
+				"child":
+				{
+					"type": "minecraft:mule"
+				}
+			}
+		},
+		"sheep":
+		{
+			"trigger": "minecraft:bred_animals",
+			"conditions":
+			{
+				"child":
+				{
+					"type": "minecraft:sheep"
+				}
+			}
+		},
+		"cow":
+		{
+			"trigger": "minecraft:bred_animals",
+			"conditions":
+			{
+				"child":
+				{
+					"type": "minecraft:cow"
+				}
+			}
+		},
+		"mooshroom":
+		{
+			"trigger": "minecraft:bred_animals",
+			"conditions":
+			{
+				"child":
+				{
+					"type": "minecraft:mooshroom"
+				}
+			}
+		},
+		"pig":
+		{
+			"trigger": "minecraft:bred_animals",
+			"conditions":
+			{
+				"child":
+				{
+					"type": "minecraft:pig"
+				}
+			}
+		},
+		"chicken":
+		{
+			"trigger": "minecraft:bred_animals",
+			"conditions":
+			{
+				"child":
+				{
+					"type": "minecraft:chicken"
+				}
+			}
+		},
+		"wolf":
+		{
+			"trigger": "minecraft:bred_animals",
+			"conditions":
+			{
+				"child":
+				{
+					"type": "minecraft:wolf"
+				}
+			}
+		},
+		"cat":
+		{
+			"trigger": "minecraft:bred_animals",
+			"conditions":
+			{
+				"child":
+				{
+					"type": "minecraft:cat"
+				}
+			}
+		},
+		"rabbit":
+		{
+			"trigger": "minecraft:bred_animals",
+			"conditions":
+			{
+				"child":
+				{
+					"type": "minecraft:rabbit"
+				}
+			}
+		},
+		"llama":
+		{
+			"trigger": "minecraft:bred_animals",
+			"conditions":
+			{
+				"child":
+				{
+					"type": "minecraft:llama"
+				}
+			}
+		},
+		"turtle":
+		{
+			"trigger": "minecraft:bred_animals",
+			"conditions":
+			{
+				"parent":
+				{
+					"type": "minecraft:turtle"
+				}
+			}
+		},
+		"panda":
+		{
+			"trigger": "minecraft:bred_animals",
+			"conditions":
+			{
+				"child":
+				{
+					"type": "minecraft:panda"
+				}
+			}
+		},
+		"fox":
+		{
+			"trigger": "minecraft:bred_animals",
+			"conditions":
+			{
+				"child":
+				{
+					"type": "minecraft:fox"
+				}
+			}
+		},
+		"oak_boat":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": [{"items": ["minecraft:oak_boat"]}]
+			}
+		},
+		"spruce_boat":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": [{"items": ["minecraft:spruce_boat"]}]
+			}
+		},
+		"birch_boat":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": [{"items": ["minecraft:birch_boat"]}]
+			}
+		},
+		"jungle_boat":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": [{"items": ["minecraft:jungle_boat"]}]
+			}
+		},
+		"acacia_boat":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": [{"items": ["minecraft:acacia_boat"]}]
+			}
+		},
+		"dark_oak_boat":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": [{"items": ["minecraft:dark_oak_boat"]}]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

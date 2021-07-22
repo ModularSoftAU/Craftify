@@ -1,0 +1,106 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:lantern"},
+		"title": {"text": "The fourth day"},
+		"description": {"text": "Lights to govern the day and the night"},
+		"frame": "goal"
+	},
+	"parent": "cfc:bible/day_3",
+	"criteria":
+	{
+		"beacon":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:beacon"}
+		},
+		"campfire":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:campfire"}
+		},
+		"end_rod":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:end_rod"}
+		},
+		"glowstone":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:glowstone"}
+		},
+		"jack_o_lantern":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:jack_o_lantern"}
+		},
+		"lantern":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:lantern"}
+		},
+		"redstone_lamp":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:redstone_lamp"}
+		},
+		"redstone_torch":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:redstone_torch"}
+		},
+		"sea_lantern":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:sea_lantern"}
+		},
+		"sea_pickle":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:sea_pickle"}
+		},
+		"shroomlight":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:shroomlight"}
+		},
+		"soul_campfire":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:soul_campfire"}
+		},
+		"soul_lantern":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:soul_lantern"}
+		},
+		"soul_torch":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:soul_torch"}
+		},
+		"torch":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:torch"}
+		},
+		"glow_berries": 
+		{
+            		"trigger": "minecraft:placed_block",
+            		"conditions": 
+				{"item": {"items": ["glow_berries"]}}
+        	},
+		"candles": 
+		{
+            		"trigger": "minecraft:placed_block",
+            		"conditions": 
+			{
+                		"item": {"items": ["candle","white_candle","orange_candle","magenta_candle","light_blue_candle","yellow_candle","lime_candle","pink_candle","gray_candle","light_gray_candle","cyan_candle","purple_candle","blue_candle","brown_candle","green_candle","red_candle","black_candle"]}
+            		}
+       	 	}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:dead_bush"},
+		"title": {"text": "Swarm of Locusts"},
+		"description": {"text": "One of many plagues"}
+	},
+	"parent": "cfc:bible/technicolour",
+	"criteria":
+	{
+		"swarm":
+		{
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

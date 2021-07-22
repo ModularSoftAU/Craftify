@@ -1,0 +1,52 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:iron_nugget"},
+		"title": {"text": "The Price Of Betrayal"},
+		"description": {"text": "You monster"},
+		"hidden": "true"
+	},
+	"parent": "cfc:bible/water_walking",
+	"criteria":
+	{
+		"12":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:iron_nugget"],
+						"count": 12
+					}
+				]
+			}
+		},
+		"30":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:iron_nugget"],
+						"count": 30
+					}
+				]
+			}
+		}
+	},
+	"requirements":
+	[
+		[
+			"12",
+			"30"
+		]
+	],
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

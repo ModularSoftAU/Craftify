@@ -1,0 +1,111 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:bread"},
+		"title": {"text": "Lord's Supper"},
+		"description": {"text": "This do in rememberance of me"}
+	},
+	"parent": "cfc:bible/betrayal",
+	"criteria":
+	{
+		"health_1":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:potion"],
+						"potion": "minecraft:healing"
+					}
+					,{
+						"items": ["minecraft:bread"]
+					}
+				]
+			}
+		}
+		,"health_2":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:potion"],
+						"potion": "minecraft:strong_healing"
+					}
+					,{
+						"items": ["minecraft:bread"]
+					}
+				]
+			}
+		}
+		,"regen_1":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:potion"],
+						"potion": "minecraft:regeneration"
+					}
+					,{
+						"items": ["minecraft:bread"]
+					}
+				]
+			}
+		}
+		,"regen_2":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:potion"],
+						"potion": "minecraft:strong_regeneration"
+					}
+					,{
+						"items": ["minecraft:bread"]
+					}
+				]
+			}
+		}
+		,"regen_3":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:potion"],
+						"potion": "minecraft:long_regeneration"
+					}
+					,{
+						"items": ["minecraft:bread"]
+					}
+				]
+			}
+		}
+	},
+	"requirements":
+	[
+		[
+			"health_1"
+			,"health_2"
+			,"regen_1"
+			,"regen_2"
+			,"regen_3"
+		]
+	],
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:scute"},
+		"title": {"text": "Patience"},
+		"description": {"text": "Let us not become weary in doing good"}
+	},
+	"parent": "cfc:bible/peace",
+	"criteria":
+	{
+		"scute":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions": 
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:scute"],
+						"count": 5
+					}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

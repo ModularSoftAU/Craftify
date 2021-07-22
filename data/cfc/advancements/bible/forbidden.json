@@ -1,0 +1,25 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:chorus_fruit"},
+		"title": {"text": "Forbidden fruit"},
+		"description": {"text": "Get kicked out of the garden"},
+		"hidden": "true"
+	},
+	"parent": "cfc:bible/sin",
+	"criteria":
+	{
+		"chorus_fruit":
+		{
+			"trigger": "minecraft:consume_item",
+			"conditions":
+			{
+				"item": {"items": ["minecraft:chorus_fruit"]}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

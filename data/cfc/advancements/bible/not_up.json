@@ -1,0 +1,29 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:end_crystal"},
+		"title": {"text": "Not That Way"},
+		"description": {"text": "One does not simply fly to Heaven"},
+		"hidden": "true",
+		"frame": "challenge"
+	},
+	"parent": "cfc:bible/savior",
+	"criteria":
+	{
+		"up":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"position":
+				{
+					"y": {"min": 2000}
+				}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

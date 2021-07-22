@@ -1,0 +1,18 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:blue_terracotta"},
+		"title": {"text": "Self Control"},
+		"description": {"text": "Don't trip"}
+	},
+	"parent": "cfc:bible/gentleness",
+	"criteria":
+	{
+		"disarm_temple":
+			{"trigger": "minecraft:impossible"} 
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

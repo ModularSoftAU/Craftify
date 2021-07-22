@@ -1,0 +1,20 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:water_bucket"},
+		"title": {"text": "The second day"},
+		"description": {"text": "Separate water from water"}
+	},
+	"parent": "cfc:bible/day_1",
+	"criteria":
+	{
+		"water_bucket":
+		{
+			"trigger": "minecraft:filled_bucket"
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}
