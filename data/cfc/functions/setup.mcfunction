@@ -14,3 +14,6 @@ gamerule spawnRadius 0
 gamerule keepInveontory false
 gamerule randomTickSpeed 3
 gamerule sendCommandFeedback false
+
+
+function cfc:bible/bible_setup
