@@ -11,7 +11,7 @@ gamerule doFireTick false
 gamerule doWeatherCycle true
 gamerule playersSleepingPercentage 0
 gamerule spawnRadius 0
-gamerule keepInveontory false
+gamerule keepInventory false
 gamerule randomTickSpeed 3
 gamerule sendCommandFeedback false
 
