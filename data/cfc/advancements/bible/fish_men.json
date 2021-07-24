@@ -1,0 +1,25 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:fishing_rod"},
+		"title": {"text": "Fisher of Men"},
+		"description": {"text": "Set aside your nets"}
+	},
+	"parent": "cfc:bible/respawn",
+	"criteria":
+	{
+		"fish":
+		{
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions":
+			{
+				"entity":
+				{"type": "minecraft:player"}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

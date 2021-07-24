@@ -9,10 +9,7 @@
 			{
 				"items": 
 				[
-					{
-						"item": "minecraft:cobweb",
-						"count": 1
-					}
+					{"items": ["minecraft:cobweb"]}
 				]
 			}
 		}

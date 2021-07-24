@@ -1,0 +1,20 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:wheat"},
+		"title": {"text": "The sixth day"},
+		"description": {"text": "Creatures on the earth"}
+	},
+	"parent": "cfc:bible/day_5",
+	"criteria":
+	{
+		"bred_animals":
+		{
+			"trigger": "minecraft:bred_animals"
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

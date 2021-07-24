@@ -1,0 +1,39 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:ravager_spawn_egg"},
+		"title": {"text": "Lion's Den"},
+		"description": {"text": "Soft kitty"},
+		"frame": "goal"
+	},
+	"parent": "cfc:bible/furnace",
+	"criteria":
+	{
+		"punch":
+		{
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions":
+			{
+				"damage":
+				{
+					"source_entity":
+					{
+						"effects": {"minecraft:invisibility": {}}
+					}
+				},
+				"entity":
+				{
+					"distance":
+					{
+						"absolute": {"max": 5}
+					},
+					"type": "ravager"
+				}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

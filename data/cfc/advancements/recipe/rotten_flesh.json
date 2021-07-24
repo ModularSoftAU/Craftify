@@ -10,7 +10,7 @@
 				"items": 
 				[
 					{
-						"item": "minecraft:rotten_flesh",
+						"items": ["minecraft:rotten_flesh"],
 						"count": 9
 					}
 				]

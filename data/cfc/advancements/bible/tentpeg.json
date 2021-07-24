@@ -1,0 +1,55 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:tripwire_hook"},
+		"title": {"text": "Tentpeg to the temple"},
+		"description": {"text": "Judges 4:21"}
+	},
+	"parent": "cfc:bible/murder",
+	"criteria":
+	{
+		"iron_bars":
+		{
+			"trigger": "minecraft:player_killed_entity",
+			"conditions":
+			{
+				"entity":
+				{"type": "player"},
+				"killing_blow":
+				{
+					"source_entity":
+					{
+						"nbt": "{SelectedItem:{id:\"minecraft:iron_bars\"}}"
+					}
+				}
+			}
+		},
+		"tripwire_hook":
+		{
+			"trigger": "minecraft:player_killed_entity",
+			"conditions":
+			{
+				"entity":
+				{"type": "player"},
+				"killing_blow":
+				{
+					"source_entity":
+					{
+						"nbt": "{SelectedItem:{id:\"minecraft:tripwire_hook\"}}"
+					}
+				}
+			}
+		}
+	},
+	"requirements":
+	[
+		[
+			"iron_bars",
+			"tripwire_hook"
+		]
+	],
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

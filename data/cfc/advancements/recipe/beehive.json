@@ -8,12 +8,7 @@
 			"conditions":
 			{
 				"items": 
-				[
-					{
-						"item": "minecraft:beehive",
-						"count": 1
-					}
-				]
+				[{"items": ["minecraft:beehive"]}]
 			}
 		}
 	},

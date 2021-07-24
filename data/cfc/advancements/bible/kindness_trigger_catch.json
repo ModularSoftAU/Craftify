@@ -1,0 +1,16 @@
+{
+	"parent": "cfc:bible/root",
+	"criteria":
+	{
+		"catch":
+		{
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions":
+				{"items":[{"items": ["minecraft:diamond_block"]}]}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/kindness_trigger_catch"
+	}
+}

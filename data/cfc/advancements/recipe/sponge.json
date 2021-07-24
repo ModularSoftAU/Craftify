@@ -9,10 +9,7 @@
 			{
 				"items": 
 				[
-					{
-						"item": "minecraft:sponge",
-						"count": 1
-					}
+					{"items": ["minecraft:sponge"]}
 				]
 			}
 		}

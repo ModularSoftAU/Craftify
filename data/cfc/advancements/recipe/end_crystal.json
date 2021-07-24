@@ -9,10 +9,7 @@
 			{
 				"items": 
 				[
-					{
-						"item": "minecraft:end_crystal",
-						"count": 1
-					}
+					{"items": ["minecraft:end_crystal"]}
 				]
 			}
 		}

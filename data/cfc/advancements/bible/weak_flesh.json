@@ -1,0 +1,30 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:rotten_flesh"},
+		"title": {"text": "The spirit is willing..."},
+		"description": {"text": "...but the flesh is weak."}
+	},
+	"parent": "cfc:bible/supper",
+	"criteria":
+	{
+		"flesh":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:rotten_flesh"],
+						"count": 64
+					}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

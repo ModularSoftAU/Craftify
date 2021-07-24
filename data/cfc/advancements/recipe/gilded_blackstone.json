@@ -9,10 +9,7 @@
 			{
 				"items": 
 				[
-					{
-						"item": "minecraft:gilded_blackstone",
-						"count": 1
-					}
+					{"items": ["minecraft:gilded_blackstone"]}
 				]
 			}
 		}

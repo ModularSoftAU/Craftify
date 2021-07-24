@@ -1,0 +1,19 @@
+{
+	"parent": "cfc:bible/root",
+	"criteria":
+	{
+		"bee":
+		{
+			"trigger": "minecraft:bred_animals",
+			"conditions":
+			{
+				"parent":
+				{"type": "bee"}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/locusts_trigger"
+	}
+}

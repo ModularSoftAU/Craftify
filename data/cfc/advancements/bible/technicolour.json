@@ -1,0 +1,181 @@
+{
+	"display":
+	{
+		"icon":
+		{
+		"item": "minecraft:leather_chestplate",
+		"nbt": "{display:{color:16701501}}"
+		},
+		"title": {"text": "Technicolour Dreamcoat"},
+		"description": {"text": "Wool of many colours"},
+		"frame": "goal"
+	},
+	"parent": "cfc:bible/worst_trade",
+	"criteria":
+	{
+		"White Wool":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:white_wool"}
+		},
+		"White Carpet":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:white_carpet"}
+		},
+		"Orange Wool":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:orange_wool"}
+		},
+		"Orange Carpet":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:orange_carpet"}
+		},
+		"Magenta Wool":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:magenta_wool"}
+		},
+		"Magenta Carpet":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:magenta_carpet"}
+		},
+		"Light Blue Wool":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:light_blue_wool"}
+		},
+		"Light Blue Carpet":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:light_blue_carpet"}
+		},
+		"Yellow Wool":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:yellow_wool"}
+		},
+		"Yellow Carpet":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:yellow_carpet"}
+		},
+		"Lime Wool":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:lime_wool"}
+		},
+		"Lime Carpet":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:lime_carpet"}
+		},
+		"Pink Wool":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:pink_wool"}
+		},
+		"Pink Carpet":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:pink_carpet"}
+		},
+		"Gray Wool":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:gray_wool"}
+		},
+		"Gray Carpet":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:gray_carpet"}
+		},
+		"Light Gray Wool":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:light_gray_wool"}
+		},
+		"Light Gray Carpet":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:light_gray_carpet"}
+		},
+		"Cyan Wool":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:cyan_wool"}
+		},
+		"Cyan Carpet":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:cyan_carpet"}
+		},
+		"Purple Wool":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:purple_wool"}
+		},
+		"Purple Carpet":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:purple_carpet"}
+		},
+		"Blue Wool":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:blue_wool"}
+		},
+		"Blue Carpet":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:blue_carpet"}
+		},
+		"Brown Wool":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:brown_wool"}
+		},
+		"Brown Carpet":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:brown_carpet"}
+		},
+		"Green Wool":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:green_wool"}
+		},
+		"Green Carpet":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:green_carpet"}
+		},
+		"Red Wool":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:red_wool"}
+		},
+		"Red Carpet":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:red_carpet"}
+		},
+		"Black Wool":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:black_wool"}
+		},
+		"Black Carpet":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:black_carpet"}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

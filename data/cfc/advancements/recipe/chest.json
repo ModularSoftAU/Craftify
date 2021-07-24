@@ -10,7 +10,7 @@
 				"items": 
 				[
 					{
-						"item": "minecraft:chest",
+						"items": ["minecraft:chest"],
 						"count": 4
 					}
 				]

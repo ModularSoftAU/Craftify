@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		" A ",
+		"ADA",
+		" A "
+	],
+	"key":
+	{
+		"A":
+			{"item": "minecraft:allium"},
+		"D":
+			{"item": "minecraft:big_dripleaf"}
+	},
+	"result":
+	{
+		"item": "minecraft:spore_blossom",
+		"count": 1
+	}
+}

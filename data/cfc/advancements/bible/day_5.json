@@ -1,0 +1,68 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:tropical_fish_bucket"},
+		"title": {"text": "The fifth day"},
+		"description": {"text": "Life in the air and the sea"}
+	},
+	"parent": "cfc:bible/day_4",
+	"criteria":
+	{
+		"cod_bucket":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": [{"items": ["minecraft:cod_bucket"]}]
+			}
+		},
+		"salmon_bucket":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": [{"items": ["minecraft:salmon_bucket"]}]
+			}
+		},
+		"pufferfish_bucket":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": [{"items": ["minecraft:pufferfish_bucket"]}]
+			}
+		},
+		"tropical_fish_bucket":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": [{"items": ["minecraft:tropical_fish_bucket"]}]
+			}
+		},
+		"egg":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": [{"items": ["minecraft:egg"]}]
+			}
+		}
+	},
+	"requirements":
+	[
+		[
+			"egg"
+		],
+		[
+			"cod_bucket",
+			"salmon_bucket",
+			"pufferfish_bucket",
+			"tropical_fish_bucket"
+		]
+	],
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:feather"},
+		"title": {"text": "The Ascension"},
+		"description": {"text": "Called up to Heaven"},
+		"frame": "challenge",
+		"hidden": "true"
+	},
+	"parent": "cfc:bible/not_up",
+	"criteria":
+	{
+		"rise":
+		{
+			"trigger": "minecraft:levitation",
+			"conditions":
+			{
+				"distance":
+				{
+					"y": {"min": 100}
+				}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

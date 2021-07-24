@@ -1,0 +1,30 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:iron_horse_armor"},
+		"title": {"text": "Four Horsemen"},
+		"description": {"text": "Smite the Horsemen of the Apocalypse"},
+		"frame": "goal"
+	},
+	"parent": "cfc:bible/brimstone",
+	"criteria":
+	{
+		"strike":
+		{
+			"trigger": "minecraft:channeled_lightning",
+			"conditions":
+			{
+				"victims":
+				[
+					{
+						"type": "minecraft:skeleton_horse"
+					}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

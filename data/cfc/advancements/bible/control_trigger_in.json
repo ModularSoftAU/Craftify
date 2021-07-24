@@ -1,0 +1,26 @@
+{
+	"parent": "cfc:bible/root",
+	"criteria":
+	{
+		"in":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"biome": "desert",
+				"position": 
+				{
+					"y": 
+					{
+						"max": 53,
+						"min": 50
+					}
+				}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/control_trigger_in"
+	}
+}

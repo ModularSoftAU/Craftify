@@ -1,0 +1,25 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:mutton"},
+		"title": {"text": "Sacrifice to the Lord"},
+		"description": {"text": "Kill a goat, not your son"}
+	},
+	"parent": "cfc:bible/babel",
+	"criteria":
+	{
+		"mutton":
+		{
+			"trigger": "minecraft:player_killed_entity",
+			"conditions":
+			{
+				"entity":
+				{"type": "goat"}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

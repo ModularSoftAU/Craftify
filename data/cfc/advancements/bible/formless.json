@@ -1,0 +1,22 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:dirt"},
+		"title": {"text": "God created the Heavens..."},
+		"description": {"text": "Collect some earth"}
+	},
+	"parent": "cfc:bible/root",
+	"criteria":
+	{
+		"dirt":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+				{"items":[{"items": ["minecraft:dirt"]}]}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

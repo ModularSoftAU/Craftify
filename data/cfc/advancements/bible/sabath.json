@@ -1,0 +1,25 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:wheat"},
+		"title": {"text": "Made for Man"},
+		"description": {"text": "They were hungry"}
+	},
+	"parent": "cfc:bible/fish_men",
+	"criteria":
+	{
+		"harvest":
+		{
+			"trigger": "minecraft:enter_block",
+			"conditions":
+			{
+				"block": "minecraft:wheat",
+				"state": {"age": 7}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

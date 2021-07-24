@@ -1,0 +1,25 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:enchanted_golden_apple"},
+		"title": {"text": "Fruit of eternal life"},
+		"description": {"text": "Gain eternal life"},
+		"hidden": "true"
+	},
+	"parent": "cfc:bible/forbidden",
+	"criteria":
+	{
+		"notch_apple":
+		{
+			"trigger": "minecraft:consume_item",
+			"conditions":
+			{
+				"item": {"items": ["minecraft:enchanted_golden_apple"]}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

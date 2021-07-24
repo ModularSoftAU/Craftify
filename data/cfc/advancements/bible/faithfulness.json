@@ -1,0 +1,30 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:golden_apple"},
+		"title": {"text": "Faithfulness"},
+		"description": {"text": "Keep your friend safe"}
+	},
+	"parent": "cfc:bible/goodness",
+	"criteria":
+	{
+		"cure":
+		{
+			"trigger": "minecraft:cured_zombie_villager",
+			"conditions":
+			{
+				"zombie":
+				{
+					"distance":
+					{
+						"absolute": {"max": 10}
+					}
+				}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

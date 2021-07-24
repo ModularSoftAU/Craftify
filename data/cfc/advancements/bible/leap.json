@@ -1,0 +1,127 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:diamond_boots"},
+		"title": {"text": "Leap of Faith"},
+		"description": {"text": "Trust the power of the Lord"},
+		"frame": "goal"
+	},
+	"parent": "cfc:bible/emergency",
+	"criteria":
+	{
+		"leather":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:leather_boots"],
+						"enchantments":
+						[
+							{
+								"enchantment": "minecraft:feather_falling",
+								"levels": {"min": 4}
+							}
+						]
+					}
+				]
+			}
+		}
+		,"chainmail":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:chainmail_boots"],
+						"enchantments":
+						[
+							{
+								"enchantment": "minecraft:feather_falling",
+								"levels": {"min": 4}
+							}
+						]
+					}
+				]
+			}
+		}
+		,"iron":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:iron_boots"],
+						"enchantments":
+						[
+							{
+								"enchantment": "minecraft:feather_falling",
+								"levels": {"min": 4}
+							}
+						]
+					}
+				]
+			}
+		}
+		,"diamond":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:diamond_boots"],
+						"enchantments":
+						[
+							{
+								"enchantment": "minecraft:feather_falling",
+								"levels": {"min": 4}
+							}
+						]
+					}
+				]
+			}
+		}
+		,"golden":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:golden_boots"],
+						"enchantments":
+						[
+							{
+								"enchantment": "minecraft:feather_falling",
+								"levels": {"min": 4}
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements":
+	[
+		[
+			"leather"
+			,"chainmail"
+			,"iron"
+			,"diamond"
+			,"golden"
+		]
+	],
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

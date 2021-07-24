@@ -1,0 +1,36 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:wheat_seeds"},
+		"title": {"text": "Parable of the Sower"},
+		"description": {"text": "May you produce a crop many times that planted"}
+	},
+	"parent": "cfc:bible/sabath",
+	"criteria":
+	{
+		"wheat":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:wheat"}
+		}
+		,"pumpkin":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:pumpkin_stem"}
+		}
+		,"melon":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:melon_stem"}
+		}
+		,"beetroots":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:beetroots"}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

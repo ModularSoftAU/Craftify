@@ -10,32 +10,12 @@
 				"items": 
 				[
 					{
-						"item": "minecraft:diamond"
-					}
-				]
-			}
-		},
-		"ore":
-		{
-			"trigger": "minecraft:inventory_changed",
-			"conditions":
-			{
-				"items": 
-				[
-					{
-						"item": "minecraft:diamond_ore"
+						"items": ["minecraft:diamond","minecraft:diamond_ore","minecraft:deepslate_diamond_ore","minecraft:diamond_block"]
 					}
 				]
 			}
 		}
 	},
-	"requirements":
-	[
-		[
-			"diamond",
-			"ore"
-		]
-	],
 	"rewards":
 	{
 		"function": "cfc:diamond"

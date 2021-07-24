@@ -1,0 +1,25 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:fishing_rod"},
+		"title": {"text": "Peace"},
+		"description": {"text": "Find peace and tranquility"}
+	},
+	"parent": "cfc:bible/joy",
+	"criteria":
+	{
+		"fish":
+		{
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions":
+			{
+				"item":
+				{"count": 1}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

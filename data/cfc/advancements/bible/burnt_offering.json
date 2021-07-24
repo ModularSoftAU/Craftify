@@ -1,0 +1,24 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:cooked_mutton"},
+		"title": {"text": "Burned offering"},
+		"description": {"text": "A pleasing arroma"}
+	},
+	"parent": "cfc:bible/sacrifice",
+	"criteria":
+	{
+		"cooked_mutton":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": [{"items": ["minecraft:cooked_mutton"]}]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

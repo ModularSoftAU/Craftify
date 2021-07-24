@@ -1,0 +1,46 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:diamond_sword"},
+		"title": {"text": "Savior Of All"},
+		"description": {"text": "Bring salvation to all nations"}
+	},
+	"parent": "cfc:bible/leap",
+	"criteria":
+	{
+		"plains":
+		{
+			"trigger": "minecraft:hero_of_the_village",
+			"conditions":
+				{"location":{"biome": "plains"}}
+		}
+		,"desert":
+		{
+			"trigger": "minecraft:hero_of_the_village",
+			"conditions":
+				{"location":{"biome": "desert"}}
+		}
+		,"savanna":
+		{
+			"trigger": "minecraft:hero_of_the_village",
+			"conditions":
+				{"location":{"biome": "savanna"}}
+		}
+		,"taiga":
+		{
+			"trigger": "minecraft:hero_of_the_village",
+			"conditions":
+				{"location":{"biome": "taiga"}}
+		}
+		,"snowy_tundra":
+		{
+			"trigger": "minecraft:hero_of_the_village",
+			"conditions":
+				{"location":{"biome": "snowy_tundra"}}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

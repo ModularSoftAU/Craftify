@@ -9,10 +9,7 @@
 			{
 				"items": 
 				[
-					{
-						"item": "minecraft:conduit",
-						"count": 1
-					}
+					{"items": ["minecraft:conduit"]}
 				]
 			}
 		}

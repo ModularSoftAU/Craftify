@@ -1,0 +1,14 @@
+{
+	"parent": "cfc:bible/root",
+	"criteria":
+	{
+		"move":
+		{
+			"trigger": "minecraft:location"
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/paul_trigger_0"
+	}
+}

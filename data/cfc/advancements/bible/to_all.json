@@ -1,0 +1,61 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:leather_boots"},
+		"title": {"text": "Sent Out"},
+		"description": {"text": "Go to all the nations"}
+	},
+	"parent": "cfc:bible/weak_flesh",
+	"criteria":
+	{
+		"plains":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"feature": "village",
+				"biome": "plains"
+			}
+		}
+		,"desert":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"feature": "village",
+				"biome": "desert"
+			}
+		}
+		,"savanna":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"feature": "village",
+				"biome": "savanna"
+			}
+		}
+		,"taiga":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"feature": "village",
+				"biome": "taiga"
+			}
+		}
+		,"snowy_tundra":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"feature": "village",
+				"biome": "snowy_tundra"
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

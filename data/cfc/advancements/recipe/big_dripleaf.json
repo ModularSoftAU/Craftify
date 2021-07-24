@@ -1,0 +1,21 @@
+{
+	"parent": "cfc:root",
+	"criteria":
+	{
+		"dripleaf":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": 
+				[
+					{"items": ["minecraft:big_dripleaf"]}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"recipes": ["cfc:spore_blossom"]
+	}
+}

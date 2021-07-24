@@ -1,0 +1,23 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:beacon"},
+		"title": {"text": "Light of the World"},
+		"description": {"text": "Bring light to the world"},
+		"frame": "goal"
+	},
+	"parent": "cfc:bible/respawn",
+	"criteria":
+	{
+		"beacon":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions":
+			{"block": "minecraft:beacon"}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:loot",
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions":
+					[
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{title:\"Warp Tools\",author:\"Lego_archer_elf\",pages:['[{\"text\":\" CFC Warp Tools Book\",\"color\":\"dark_purple\"},{\"text\":\"\\\\n By \",\"color\":\"reset\"},{\"text\":\"Lego_archer_elf\",\"color\":\"dark_aqua\"},{\"text\":\"\\\\n--------------------\\\\n\\\\n► \",\"color\":\"reset\"},{\"text\":\"Locate Warp Points\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function cfc:warp/locate\"}},{\"text\":\"\\\\n    \",\"color\":\"reset\"},{\"text\":\"Random\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function cfc:warp/locate_random\"}},{\"text\":\" | \",\"color\":\"reset\"},{\"text\":\"Nearest\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function cfc:warp/locate_nearest\"}},{\"text\":\"\\\\n\\\\n► \",\"color\":\"reset\"},{\"text\":\"Create Warp Point\",\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function cfc:warp/create\"}},{\"text\":\"\\\\n\\\\n► \",\"color\":\"reset\"},{\"text\":\"Remove Warp Point\",\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function cfc:warp/remove_confirm\"}}]']}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

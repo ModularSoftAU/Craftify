@@ -1,0 +1,22 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:structure_void"},
+		"title": {"text": "Works Are Not Suficient"},
+		"description": {"text": "Still worth doing though"},
+		"hidden": "true",
+		"frame": "challenge"
+	},
+	"parent": "cfc:bible/paul",
+	"criteria":
+	{
+		"unlock_all":
+		{
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

@@ -1,0 +1,57 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:bowl"},
+		"title": {"text": "The Worst Trade"},
+		"description": {"text": "Must have been really hungry"}
+	},
+	"parent": "cfc:bible/burnt_offering",
+	"criteria":
+	{
+		"beetroot":
+		{
+			"trigger": "minecraft:consume_item",
+			"conditions":
+			{
+				"item": {"items": ["minecraft:beetroot_soup"]}
+			}
+		}
+		,"rabbit":
+		{
+			"trigger": "minecraft:consume_item",
+			"conditions":
+			{
+				"item": {"items": ["minecraft:rabbit_stew"]}
+			}
+		}
+		,"mushroom":
+		{
+			"trigger": "minecraft:consume_item",
+			"conditions":
+			{
+				"item": {"items": ["minecraft:mushroom_stew"]}
+			}
+		}
+		,"suspicious":
+		{
+			"trigger": "minecraft:consume_item",
+			"conditions":
+			{
+				"item": {"items": ["minecraft:suspicious_stew"]}
+			}
+		}
+	},
+	"requirements":
+	[
+		[
+			"beetroot"
+			,"rabbit"
+			,"mushroom"
+			,"suspicious"
+		]
+	],
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

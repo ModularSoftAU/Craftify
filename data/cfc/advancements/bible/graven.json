@@ -1,0 +1,64 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:totem_of_undying"},
+		"title": {"text": "Graven Images"},
+		"description": {"text": "Do not bow down to them"}
+	},
+	"parent": "cfc:bible/sign",
+	"criteria":
+	{
+		"carved_pumpkin":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:carved_pumpkin"}
+		}
+		,"chiseled_quartz_block":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:chiseled_quartz_block"}
+		}
+		,"chiseled_sandstone":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:chiseled_sandstone"}
+		}
+		,"chiseled_red_sandstone":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:chiseled_red_sandstone"}
+		}
+		,"chiseled_nether_bricks":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:chiseled_nether_bricks"}
+		}
+		,"chiseled_polished_blackstone":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:chiseled_polished_blackstone"}
+		}
+		,"chiseled_deepslate":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:chiseled_deepslate"}
+		}
+		,"chiseled_stone_bricks":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:chiseled_stone_bricks"}
+		}
+		,"totem_of_undying":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": [{"items": ["minecraft:totem_of_undying"]}]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}

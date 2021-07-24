@@ -1,0 +1,32 @@
+{
+	"display":
+	{
+		"icon": 
+		{
+			"item": "minecraft:potion",
+			"potion": "minecraft:fire_resistance"
+		},
+		"title": {"text": "Emergency Baptism"},
+		"description": {"text": "Save them from the fire!"},
+		"frame": "goal"
+	},
+	"parent": "cfc:bible/baptism",
+	"criteria":
+	{
+		"fire":
+		{
+			"trigger": "minecraft:effects_changed",
+			"conditions":
+			{
+				"effects":
+				{
+					"minecraft:fire_resistance": {}
+				}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "cfc:bible/advance"
+	}
+}
