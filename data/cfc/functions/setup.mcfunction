@@ -3,7 +3,7 @@ scoreboard objectives add q_dummy dummy
 scoreboard objectives add quartz minecraft.picked_up:minecraft.quartz
 
 #set up gamerules
-difficulty hard
+difficulty normal
 gamerule commandBlockOutput false
 gamerule logAdminCommands true
 gamerule doDaylightCycle true
