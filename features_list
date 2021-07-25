@@ -1,0 +1,34 @@
+- Loot-Tables
+	- End crystals can be found in End-City loot chests
+	- Skeleton horses can drop end crystals
+	- Players will drop their head when killed by a player
+	- The Ender Dragon drops an egg on death
+- Recipes
+	- All log to wood crafting now gives 4 rather than 3
+	- Bundles are craftable
+	- Fermented spider eyes can be frafted using either mushroom type
+	- Bee nests (natural) can be crafted from a bee hive and honeycomb
+	- Blackstone can be crafted from bassalt and coblestone
+	- Chainmail armour can be crafted
+	- Chests can be bulk-crafted using logs
+	- Dispensers can be crafted by crafting a bow around a dropper
+	- Elytra are craftable
+	- The dragon egg can be crafted into two end crystals
+	- Exp-bottles are craftable
+	- Guilded blackstone is craftable
+	- Flint can be crafted back into gravel
+	- Enchanted golden apples can be crafted
+	- Rotten flesh can be turned into rabbit hide
+	- Sponge is craftable
+	- Spore blossoms are craftable
+	- Tridents are craftable
+	- Packed/Blue ice can be uncrafted
+- Advancements
+	- James 1:12 advancement pack is included
+- Warp
+	- Wild warp system to randomly teleport players to a new location from spawn
+- Other Functions
+	- Number of bees in a nest/hive is displayed when broken
+	- Dragon death is announced to the server
+	- Welcome pack is given on first join
+	- Warning against x-ray given when first getting diamonds of any type
