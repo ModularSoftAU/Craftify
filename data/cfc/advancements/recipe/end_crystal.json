@@ -12,6 +12,11 @@
 					{"items": ["minecraft:end_crystal"]}
 				]
 			}
+		},
+		"the_end":
+		{
+			"trigger": "changed_dimension",
+			"conditions": {"to": "the_end"}
 		}
 	},
 	"rewards":
