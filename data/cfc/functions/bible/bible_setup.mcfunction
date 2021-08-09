@@ -12,7 +12,7 @@ scoreboard objectives add bible_bees dummy
 
 scoreboard objectives add bible_tnt minecraft.mined:minecraft.tnt
 
-scoreboard objectives add bible_kind_throw minecraft.dropped:minecraft.diamond_block
+scoreboard objectives add bible_kind_throw minecraft.custom:minecraft.drop
 
 #failsave function powered advancements
 advancement revoke @a only cfc:bible/paul
