@@ -4,7 +4,7 @@
 	[
 		"MEM",
 		"MDM",
-		"MCM"
+		"MFM"
 	],
 	"key":
 	{
@@ -14,8 +14,8 @@
 			{"item": "minecraft:ender_eye"},
 		"D":
 			{"item": "minecraft:diamond_chestplate"},
-		"C":
-			{"item": "minecraft:end_crystal"}
+		"F":
+			{"item": "minecraft:chorus_flower"}
 	},
 	"result":
 	{
