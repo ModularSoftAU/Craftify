@@ -1,5 +1,3 @@
-function cfc:quartz_test
-
 # Put players with the Ban tag into the containment box, and release them safely when tag is removed
 tp @a[tag=Ban] 0 100 0
 execute as @s[x=0,dx=.1,y=100,dy=.1,z=0,dz=.1,tag=!Ban] run tp @s 0 97 0

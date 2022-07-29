@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"LL",
+		"LL"
+	],
+	"key":
+	{
+		"L":
+			{"item": "minecraft:mangrove_log"}	
+	},
+	"result":
+	{
+		"item": "minecraft:mangrove_wood",
+		"count": 4
+	}
+}

@@ -3,6 +3,8 @@
 	- Skeleton horses can drop end crystals
 	- Players will drop their head when killed by a player
 	- The Ender Dragon drops an egg on death
+	- Drowned drops copper more often, and drops shells
+	- Warden can drop more sculk things
 - Recipes
 	- All log to wood crafting now gives 4 rather than 3
 	- Bundles are craftable
@@ -20,14 +22,15 @@
 	- Enchanted golden apples can be crafted
 	- Rotten flesh can be turned into rabbit hide
 	- Sponge is craftable
-	- Spore blossoms are craftable
+	- (removed) Spore blossoms are craftable
 	- Tridents are craftable
 	- Packed/Blue ice can be uncrafted
 	- Bones can be directly crafted into bone blocks
 - Advancements
-	- James 1:12 advancement pack is included
+	- (removed) James 1:12 advancement pack is included
 - Warp
 	- Wild warp system to randomly teleport players to a new location from spawn
+	- Targeted warps, up to 6 locations
 - Other Functions
 	- Number of bees in a nest/hive is displayed when broken
 	- Dragon death is announced to the server

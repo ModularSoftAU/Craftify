@@ -3,12 +3,9 @@
 	"ingredients":
 	[
 		{"item": "minecraft:quartz"},
-		{"item": "minecraft:quartz"},
-		{"item": "minecraft:quartz"},
-		{"item": "minecraft:quartz"},
-		{"item": "minecraft:quartz"},
-		{"item": "minecraft:quartz"},
-		{"item": "minecraft:glowstone_dust"},
+		{"item": "minecraft:sculk"},
+		{"item": "minecraft:sculk"},
+		{"item": "minecraft:sculk"},
 		{"item": "minecraft:glowstone_dust"},
 		{
 			"item": "minecraft:potion",
