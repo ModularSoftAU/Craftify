@@ -1,0 +1,21 @@
+{
+	"parent": "cfc:root",
+	"criteria":
+	{
+		"packed_ice":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": 
+				[
+					{"items": ["minecraft:clay"]}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"recipes": ["cfc:uncraft_clay"]
+	}
+}
