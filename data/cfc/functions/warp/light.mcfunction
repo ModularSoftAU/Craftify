@@ -1,3 +1,5 @@
+execute if entity @e[type=marker,limit=1,sort=nearest,tag=cfc,tag=warp_start,distance=..2] run effect give @s saturation 2 3 true
+
 advancement revoke @s only cfc:warp/light
 execute if entity @e[type=marker,limit=1,sort=nearest,tag=cfc,tag=warp_start,tag=random,distance=..2] run function cfc:warp/warp
 
