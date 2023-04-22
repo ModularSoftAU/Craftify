@@ -1,0 +1,21 @@
+{
+	"parent": "craftify:root",
+	"criteria":
+	{
+		"notch_apple":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": 
+				[
+					{"items": ["minecraft:enchanted_golden_apple"]}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"recipes": ["craftify:notch_apple"]
+	}
+}

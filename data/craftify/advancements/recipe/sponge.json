@@ -1,0 +1,21 @@
+{
+	"parent": "craftify:root",
+	"criteria":
+	{
+		"sponge":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": 
+				[
+					{"items": ["minecraft:sponge"]}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"recipes": ["craftify:sponge"]
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"parent": "craftify:root",
+	"criteria":
+	{
+		"beehive":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": 
+				[{"items": ["minecraft:beehive"]}]
+			}
+		}
+	},
+	"rewards":
+	{
+		"recipes": ["craftify:bee_nest"]
+	}
+}

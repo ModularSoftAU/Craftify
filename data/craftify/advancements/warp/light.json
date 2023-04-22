@@ -1,0 +1,18 @@
+{
+	"parent": "craftify:root",
+	"criteria":
+	{
+		"light":
+		{
+			"trigger": "minecraft:enter_block",
+			"conditions":
+			{
+				"block": "minecraft:light"
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "craftify:warp/light"
+	}
+}

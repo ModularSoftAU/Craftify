@@ -1,0 +1,23 @@
+{
+	"parent": "craftify:root",
+	"criteria":
+	{
+		"diamond":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": 
+				[
+					{
+						"items": ["minecraft:diamond","minecraft:diamond_ore","minecraft:deepslate_diamond_ore","minecraft:diamond_block"]
+					}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "craftify:diamond"
+	}
+}

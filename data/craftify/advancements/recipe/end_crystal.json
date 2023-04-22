@@ -1,0 +1,26 @@
+{
+	"parent": "craftify:root",
+	"criteria":
+	{
+		"end_crystal":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": 
+				[
+					{"items": ["minecraft:end_crystal"]}
+				]
+			}
+		},
+		"the_end":
+		{
+			"trigger": "changed_dimension",
+			"conditions": {"to": "the_end"}
+		}
+	},
+	"rewards":
+	{
+		"recipes": ["craftify:elytra"]
+	}
+}

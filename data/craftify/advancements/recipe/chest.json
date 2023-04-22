@@ -1,0 +1,24 @@
+{
+	"parent": "craftify:root",
+	"criteria":
+	{
+		"chest":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": 
+				[
+					{
+						"items": ["minecraft:chest"],
+						"count": 4
+					}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"recipes": ["craftify:chest"]
+	}
+}
