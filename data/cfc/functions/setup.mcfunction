@@ -1,4 +1,5 @@
-#set up gamerules
+# Set up gamerules
+
 difficulty normal
 gamerule commandBlockOutput false
 gamerule logAdminCommands true
@@ -12,6 +13,3 @@ gamerule randomTickSpeed 3
 gamerule sendCommandFeedback true
 gamerule doLimitedCrafting false
 gamerule doMobSpawning true
-
-
-#function cfc:bible/bible_setup
