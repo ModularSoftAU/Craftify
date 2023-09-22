@@ -1,0 +1,14 @@
+{
+	"parent": "craftify:root",
+	"criteria":
+	{
+		"pulse":
+		{
+			"trigger": "minecraft:tick"
+		}
+	},
+	"rewards":
+	{
+		"function": "craftify:pulse"
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"parent": "craftify:root",
+	"criteria":
+	{
+		"chain":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": 
+				[
+					{"items": ["minecraft:chain"]}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"recipes": 
+		[
+			"craftify:chainmail_helmet",
+			"craftify:chainmail_chestplate",
+			"craftify:chainmail_leggings",
+			"craftify:chainmail_boots"
+		]
+	}
+}

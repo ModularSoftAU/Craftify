@@ -1,0 +1,21 @@
+{
+	"parent": "craftify:root",
+	"criteria":
+	{
+		"dragon_egg":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": 
+				[
+					{"items": ["minecraft:dragon_egg"]}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"recipes": ["minecraft:end_crystal"]
+	}
+}

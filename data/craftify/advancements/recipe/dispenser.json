@@ -1,0 +1,21 @@
+{
+	"parent": "craftify:root",
+	"criteria":
+	{
+		"dispenser":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": 
+				[
+					{"items": ["minecraft:dispenser","minecraft:dropper"]}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"recipes": ["craftify:dispenser"]
+	}
+}

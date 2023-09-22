@@ -1,0 +1,21 @@
+{
+	"parent": "craftify:root",
+	"criteria":
+	{
+		"packed_ice":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": 
+				[
+					{"items": ["minecraft:packed_ice"]}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"recipes": ["craftify:uncraft_packed_ice"]
+	}
+}

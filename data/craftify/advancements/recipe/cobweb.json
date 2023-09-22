@@ -1,0 +1,21 @@
+{
+	"parent": "craftify:root",
+	"criteria":
+	{
+		"cobweb":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": 
+				[
+					{"items": ["minecraft:cobweb"]}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"recipes": ["craftify:cobweb"]
+	}
+}
