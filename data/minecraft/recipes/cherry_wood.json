@@ -4,7 +4,7 @@
   "group": "bark",
   "key": {
     "#": {
-      "item": "minecraft:stripped_spruce_log"
+      "item": "minecraft:cherry_log"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:stripped_spruce_wood"
+    "id": "minecraft:cherry_wood"
   }
 }
