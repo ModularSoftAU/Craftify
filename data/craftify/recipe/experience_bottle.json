@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients":
+	[
+		{"item": "minecraft:quartz"},
+		{"item": "minecraft:sculk"},
+		{"item": "minecraft:sculk"},
+		{"item": "minecraft:sculk"},
+		{"item": "minecraft:glowstone_dust"},
+		{
+			"item": "minecraft:potion",
+			"potion": "minecraft:water"
+		}
+	],
+	"result":
+	{
+		"id": "minecraft:experience_bottle",
+		"count": 3
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"parent": "craftify:bee_2",
+	"display":
+	{
+		"icon": {"id": "minecraft:bee_nest"},
+		"title": {"text": "Full"},
+		"description": {"text": "Three bees in this hive"},
+		"hidden": true,
+		"announce_to_chat": false,
+		"show_toast": true
+	},
+	"criteria":
+	{
+		"3":
+		{
+			"trigger": "minecraft:bee_nest_destroyed",
+			"conditions": {"num_bees_inside": 3}
+		}
+	},
+	"rewards":
+	{
+		"function": "craftify:bee_3"
+	}
+}
