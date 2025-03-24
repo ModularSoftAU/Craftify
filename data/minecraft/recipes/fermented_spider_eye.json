@@ -2,11 +2,11 @@
 	"type": "minecraft:crafting_shapeless",
 	"ingredients":
 	[
-		{"item": "minecraft:spider_eye"},
-		{"item": "minecraft:sugar"},
+		"minecraft:spider_eye",
+		"minecraft:sugar",
 		[
-			{"item": "minecraft:brown_mushroom"},
-			{"item": "minecraft:red_mushroom"}
+			"minecraft:brown_mushroom",
+			"minecraft:red_mushroom"
 		]
 	],
 	"result":

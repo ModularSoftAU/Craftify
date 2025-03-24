@@ -8,10 +8,8 @@
 	],
 	"key":
 	{
-		"B":
-			{"item": "minecraft:basalt"},
-		"C":
-			{"item": "minecraft:cobblestone"}
+		"B": "minecraft:basalt",
+		"C": "minecraft:cobblestone"
 	},
 	"result":
 	{

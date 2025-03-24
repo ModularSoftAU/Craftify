@@ -8,10 +8,8 @@
 	],
 	"key":
 	{
-		"g":
-			{"item": "minecraft:gold_nugget"},
-		"B":
-			{"item": "minecraft:blackstone"}
+		"g": "minecraft:gold_nugget",
+		"B": "minecraft:blackstone"
 	},
 	"result":
 	{

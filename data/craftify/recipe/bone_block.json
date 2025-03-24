@@ -8,8 +8,7 @@
 	],
 	"key":
 	{
-		"B":
-			{"item": "minecraft:bone"}
+		"B": "minecraft:bone"
 	},
 	"result":
 	{

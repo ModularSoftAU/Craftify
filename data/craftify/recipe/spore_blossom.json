@@ -8,10 +8,8 @@
 	],
 	"key":
 	{
-		"A":
-			{"item": "minecraft:allium"},
-		"D":
-			{"item": "minecraft:big_dripleaf"}
+		"A": "minecraft:allium",
+		"D": "minecraft:big_dripleaf"
 	},
 	"result":
 	{

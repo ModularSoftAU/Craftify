@@ -2,17 +2,17 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": 
 	[
-		{"item": "minecraft:golden_apple"}
+		"minecraft:golden_apple",
 		
-		,{"item": "minecraft:gold_block"}
-		,{"item": "minecraft:gold_block"}
-		,{"item": "minecraft:gold_block"}
-		,{"item": "minecraft:gold_block"}
-		,{"item": "minecraft:gold_block"}
-		,{"item": "minecraft:gold_block"}
-		,{"item": "minecraft:gold_block"}
+		"minecraft:gold_block",
+		"minecraft:gold_block",
+		"minecraft:gold_block",
+		"minecraft:gold_block",
+		"minecraft:gold_block",
+		"minecraft:gold_block",
+		"minecraft:gold_block",
 		
-		,{"item": "minecraft:enchanted_golden_apple"}
+		"minecraft:enchanted_golden_apple"
     ],
     "result": 
 	{
