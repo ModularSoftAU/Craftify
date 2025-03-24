@@ -2,15 +2,12 @@
 	"type": "minecraft:crafting_shapeless",
 	"ingredients":
 	[
-		{"item": "minecraft:quartz"},
-		{"item": "minecraft:sculk"},
-		{"item": "minecraft:sculk"},
-		{"item": "minecraft:sculk"},
-		{"item": "minecraft:glowstone_dust"},
-		{
-			"item": "minecraft:potion",
-			"potion": "minecraft:water"
-		}
+		"minecraft:quartz",
+		"minecraft:sculk",
+		"minecraft:sculk",
+		"minecraft:sculk",
+		"minecraft:glowstone_dust",
+		"minecraft:potion"
 	],
 	"result":
 	{

@@ -8,14 +8,10 @@
 	],
 	"key":
 	{
-		"M":
-			{"item": "minecraft:phantom_membrane"},
-		"E":
-			{"item": "minecraft:ender_eye"},
-		"D":
-			{"item": "minecraft:diamond_chestplate"},
-		"F":
-			{"item": "minecraft:chorus_flower"}
+		"M": "minecraft:phantom_membrane",
+		"E": "minecraft:ender_eye",
+		"D": "minecraft:diamond_chestplate",
+		"F": "minecraft:chorus_flower"
 	},
 	"result":
 	{

@@ -8,8 +8,7 @@
 	],
 	"key":
 	{
-		"C":
-			{"item": "minecraft:chain"}
+		"C": "minecraft:chain"
 	},
 	"result":
 	{

@@ -8,10 +8,8 @@
 	],
 	"key":
 	{
-		"H":
-			{"item": "minecraft:honeycomb"},
-		"B":
-			{"item": "minecraft:beehive"}
+		"H": "minecraft:honeycomb",
+		"B": "minecraft:beehive"
 	},
 	"result":
 	{

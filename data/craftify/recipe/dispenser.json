@@ -8,12 +8,9 @@
 	],
 	"key":
 	{
-		"S":
-			{"item": "minecraft:stick"},
-		"C":
-			{"item": "minecraft:string"},
-		"d":
-			{"item": "minecraft:dropper"}
+		"S": "minecraft:stick",
+		"C": "minecraft:string",
+		"d": "minecraft:dropper"
 	},
 	"result":
 	{

@@ -8,10 +8,8 @@
 	],
 	"key":
 	{
-		"C":
-			{"item": "minecraft:conduit"},
-		"S":
-			{"item": "minecraft:diamond_sword"}
+		"C": "minecraft:conduit",
+		"S": "minecraft:diamond_sword"
 	},
 	"result":
 	{
