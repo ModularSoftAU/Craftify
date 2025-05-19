@@ -9,6 +9,21 @@
 				{
 					"type": "minecraft:item",
 					"weight": 1,
+					"name": "minecraft:spire_armor_trim_smithing_template"
+				},
+				{
+					"type": "minecraft:empty",
+					"weight": 14
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"weight": 1,
 					"name": "minecraft:end_crystal"
 				},
 				{
