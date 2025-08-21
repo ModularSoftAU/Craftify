@@ -2,11 +2,13 @@
 	"pools": [
 	  {
 		"rolls": 1,
-		"entries": [
+		"entries": 
+		[
 		  {
 			"type": "minecraft:item",
 			"name": "minecraft:written_book",
-			"functions": [
+			"functions": 
+			[
 			  {
 				"function": "minecraft:set_book_cover",
 				"title": "Warp Commands",
@@ -14,10 +16,12 @@
 			  },
 			  {
 				"function": "minecraft:set_written_book_pages",
-				"pages": [
+				"pages": 
+				[
 				  {
 					"text": "Craftify Warp Tools\n",
-					"extra": [
+					"extra": 
+					[
 					  {
 						"text": "By Lego_archer_elf\n\n"
 					  },
@@ -27,17 +31,17 @@
 					  {
 						"text": "Locate Warp Points\n",
 						"color": "blue",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/locate"
+						  "command": "function craftify:warp/locate"
 						}
 					  },
 					  {
 						"text": "Remove Warp Point",
 						"color": "dark_red",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/remove_confirm"
+						  "command": "function craftify:warp/remove_confirm"
 						}
 					  }
 					],
@@ -48,24 +52,24 @@
 					"extra": [
 					  {
 						"text": "[S] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_start_white"
+						  "command": "function craftify:warp/create_start_white"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Start"
+						  "value": "Start"
 						}
 					  },
 					  {
 						"text": "[T] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_target_white"
+						  "command": "function craftify:warp/create_target_white"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Target"
+						  "value": "Target"
 						}
 					  },
 					  {
@@ -73,24 +77,24 @@
 					  },
 					  {
 						"text": "[S] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_start_light_gray"
+						  "command": "function craftify:warp/create_start_light_gray"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Start"
+						  "value": "Start"
 						}
 					  },
 					  {
 						"text": "[T] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_target_light_gray"
+						  "command": "function craftify:warp/create_target_light_gray"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Target"
+						  "value": "Target"
 						}
 					  },
 					  {
@@ -98,24 +102,24 @@
 					  },
 					  {
 						"text": "[S] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_start_gray"
+						  "command": "function craftify:warp/create_start_gray"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Start"
+						  "value": "Start"
 						}
 					  },
 					  {
 						"text": "[T] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_target_gray"
+						  "command": "function craftify:warp/create_target_gray"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Target"
+						  "value": "Target"
 						}
 					  },
 					  {
@@ -123,24 +127,24 @@
 					  },
 					  {
 						"text": "[S] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_start_black"
+						  "command": "function craftify:warp/create_start_black"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Start"
+						  "value": "Start"
 						}
 					  },
 					  {
 						"text": "[T] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_target_black"
+						  "command": "function craftify:warp/create_target_black"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Target"
+						  "value": "Target"
 						}
 					  },
 					  {
@@ -148,24 +152,24 @@
 					  },
 					  {
 						"text": "[S] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_start_brown"
+						  "command": "function craftify:warp/create_start_brown"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Start"
+						  "value": "Start"
 						}
 					  },
 					  {
 						"text": "[T] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_target_brown"
+						  "command": "function craftify:warp/create_target_brown"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Target"
+						  "value": "Target"
 						}
 					  },
 					  {
@@ -173,24 +177,24 @@
 					  },
 					  {
 						"text": "[S] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_start_red"
+						  "command": "function craftify:warp/create_start_red"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Start"
+						  "value": "Start"
 						}
 					  },
 					  {
 						"text": "[T] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_target_red"
+						  "command": "function craftify:warp/create_target_red"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Target"
+						  "value": "Target"
 						}
 					  },
 					  {
@@ -198,24 +202,24 @@
 					  },
 					  {
 						"text": "[S] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_start_orange"
+						  "command": "function craftify:warp/create_start_orange"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Start"
+						  "value": "Start"
 						}
 					  },
 					  {
 						"text": "[T] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_target_orange"
+						  "command": "function craftify:warp/create_target_orange"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Target"
+						  "value": "Target"
 						}
 					  },
 					  {
@@ -223,24 +227,24 @@
 					  },
 					  {
 						"text": "[S] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_start_yellow"
+						  "command": "function craftify:warp/create_start_yellow"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Start"
+						  "value": "Start"
 						}
 					  },
 					  {
 						"text": "[T] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_target_yellow"
+						  "command": "function craftify:warp/create_target_yellow"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Target"
+						  "value": "Target"
 						}
 					  },
 					  {
@@ -253,24 +257,24 @@
 					"extra": [
 					  {
 						"text": "[S] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_start_lime"
+						  "command": "function craftify:warp/create_start_lime"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Start"
+						  "value": "Start"
 						}
 					  },
 					  {
 						"text": "[T] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_target_lime"
+						  "command": "function craftify:warp/create_target_lime"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Target"
+						  "value": "Target"
 						}
 					  },
 					  {
@@ -278,24 +282,24 @@
 					  },
 					  {
 						"text": "[S] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_start_green"
+						  "command": "function craftify:warp/create_start_green"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Start"
+						  "value": "Start"
 						}
 					  },
 					  {
 						"text": "[T] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_target_green"
+						  "command": "function craftify:warp/create_target_green"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Target"
+						  "value": "Target"
 						}
 					  },
 					  {
@@ -303,24 +307,24 @@
 					  },
 					  {
 						"text": "[S] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_start_cyan"
+						  "command": "function craftify:warp/create_start_cyan"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Start"
+						  "value": "Start"
 						}
 					  },
 					  {
 						"text": "[T] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_target_cyan"
+						  "command": "function craftify:warp/create_target_cyan"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Target"
+						  "value": "Target"
 						}
 					  },
 					  {
@@ -328,24 +332,24 @@
 					  },
 					  {
 						"text": "[S] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_start_light_blue"
+						  "command": "function craftify:warp/create_start_light_blue"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Start"
+						  "value": "Start"
 						}
 					  },
 					  {
 						"text": "[T] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_target_light_blue"
+						  "command": "function craftify:warp/create_target_light_blue"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Target"
+						  "value": "Target"
 						}
 					  },
 					  {
@@ -353,24 +357,24 @@
 					  },
 					  {
 						"text": "[S] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_start_blue"
+						  "command": "function craftify:warp/create_start_blue"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Start"
+						  "value": "Start"
 						}
 					  },
 					  {
 						"text": "[T] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_target_blue"
+						  "command": "function craftify:warp/create_target_blue"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Target"
+						  "value": "Target"
 						}
 					  },
 					  {
@@ -378,24 +382,24 @@
 					  },
 					  {
 						"text": "[S] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_start_purple"
+						  "command": "function craftify:warp/create_start_purple"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Start"
+						  "value": "Start"
 						}
 					  },
 					  {
 						"text": "[T] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_target_purple"
+						  "command": "function craftify:warp/create_target_purple"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Target"
+						  "value": "Target"
 						}
 					  },
 					  {
@@ -403,24 +407,24 @@
 					  },
 					  {
 						"text": "[S] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_start_magenta"
+						  "command": "function craftify:warp/create_start_magenta"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Start"
+						  "value": "Start"
 						}
 					  },
 					  {
 						"text": "[T] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_target_magenta"
+						  "command": "function craftify:warp/create_target_magenta"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Target"
+						  "value": "Target"
 						}
 					  },
 					  {
@@ -428,24 +432,24 @@
 					  },
 					  {
 						"text": "[S] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_start_pink"
+						  "command": "function craftify:warp/create_start_pink"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Start"
+						  "value": "Start"
 						}
 					  },
 					  {
 						"text": "[T] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_target_pink"
+						  "command": "function craftify:warp/create_target_pink"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Target"
+						  "value": "Target"
 						}
 					  },
 					  {
@@ -458,24 +462,24 @@
 					"extra": [
 					  {
 						"text": "[S] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_start_spawn"
+						  "command": "function craftify:warp/create_start_spawn"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Start"
+						  "value": "Start"
 						}
 					  },
 					  {
 						"text": "[T] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_target_spawn"
+						  "command": "function craftify:warp/create_target_spawn"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Target"
+						  "value": "Target"
 						}
 					  },
 					  {
@@ -483,24 +487,24 @@
 					  },
 					  {
 						"text": "[S] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_start_shop"
+						  "command": "function craftify:warp/create_start_shop"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Start"
+						  "value": "Start"
 						}
 					  },
 					  {
 						"text": "[T] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_target_shop"
+						  "command": "function craftify:warp/create_target_shop"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Target"
+						  "value": "Target"
 						}
 					  },
 					  {
@@ -508,24 +512,49 @@
 					  },
 					  {
 						"text": "[S] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_start_random"
+						  "command": "function craftify:warp/create_start_community"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Start"
+						  "value": "Start"
 						}
 					  },
 					  {
 						"text": "[T] ",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/create_target_random"
+						  "command": "function craftify:warp/create_target_community"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Target"
+						  "value": "Target"
+						}
+					  },
+					  {
+						"text": "Community\n"
+					  },
+					  {
+						"text": "[S] ",
+						"click_event": {
+						  "action": "run_command",
+						  "command": "function craftify:warp/create_start_random"
+						},
+						"hover_event": {
+						  "action": "show_text",
+						  "value": "Start"
+						}
+					  },
+					  {
+						"text": "[T] ",
+						"click_event": {
+						  "action": "run_command",
+						  "command": "function craftify:warp/create_target_random"
+						},
+						"hover_event": {
+						  "action": "show_text",
+						  "value": "Target"
 						}
 					  },
 					  {
@@ -533,13 +562,13 @@
 					  },
 					  {
 						"text": "[LIGHT]",
-						"clickEvent": {
+						"click_event": {
 						  "action": "run_command",
-						  "value": "/function craftify:warp/place_light"
+						  "command": "function craftify:warp/place_light"
 						},
-						"hoverEvent": {
+						"hover_event": {
 						  "action": "show_text",
-						  "contents": "Place light block"
+						  "value": "Place light block"
 						}
 					  },
 					  {

@@ -4,6 +4,7 @@ advancement revoke @s only craftify:warp/light
 execute if entity @e[type=marker,limit=1,sort=nearest,tag=craftify,tag=warp_start,tag=random,distance=..2] positioned as @e[type=marker,limit=1,sort=random,tag=craftify,tag=warp_point] run spreadplayers ~ ~ 10 10 false @s
 execute if entity @e[type=marker,limit=1,sort=nearest,tag=craftify,tag=warp_start,tag=spawn,distance=..2] run tp @s @e[type=marker,limit=1,tag=craftify,tag=warp_point,tag=spawn]
 execute if entity @e[type=marker,limit=1,sort=nearest,tag=craftify,tag=warp_start,tag=shop,distance=..2] run tp @s @e[type=marker,limit=1,tag=craftify,tag=warp_point,tag=shop]
+execute if entity @e[type=marker,limit=1,sort=nearest,tag=craftify,tag=warp_start,tag=community,distance=..2] run tp @s @e[type=marker,limit=1,tag=craftify,tag=warp_point,tag=community]
 
 # Colour based warps
 execute if entity @e[type=marker,limit=1,sort=nearest,tag=craftify,tag=warp_start,tag=white,distance=..2] run tp @s @e[type=marker,limit=1,tag=craftify,tag=warp_point,tag=white]
