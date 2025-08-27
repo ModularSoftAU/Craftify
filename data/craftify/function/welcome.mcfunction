@@ -13,5 +13,5 @@ give @s bundle
 
 tellraw @s [{text:"\nWelcome to the "},{text:"Crafting For Christ Network",color:"gold"},{text:" \nPlease be respectful\nYou can take a look at the rules "},{text:"here",underlined:true,color:"blue",click_event:{action:"open_url",url:"https://craftingforchrist.net/rules"}},{text:"\nAnd join our "},{text:"Discord",underlined:true,color:"blue",click_event:{action:"open_url",url:"https://craftingforchrist.net/discord"}},{text:"\n"}]
 
-execute if entity @s[name=shadowolfyt] run function craftify:admin/advancement_clear_0
-execute if entity @s[name=Lego_archer_elf] run function craftify:admin/advancement_clear_0
+execute if entity @s[name=shadowolfyt] run function craftify:moderation/advancement_clear_0
+execute if entity @s[name=Lego_archer_elf] run function craftify:moderation/advancement_clear_0
