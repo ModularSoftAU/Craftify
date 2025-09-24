@@ -1,0 +1,205 @@
+{
+	"parent": "craftify:root",
+	"criteria":
+	{
+		"foreverYoung":
+		{
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions":
+			{
+				"item":
+				{
+					"items": "minecraft:name_tag",
+					"components":
+					{
+						"minecraft:custom_name": "foreverYoung"
+					}
+				}
+			}
+		},
+		"ForeverYoung":
+		{
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions":
+			{
+				"item":
+				{
+					"items": "minecraft:name_tag",
+					"components":
+					{
+						"minecraft:custom_name": "ForeverYoung"
+					}
+				}
+			}
+		},
+		"foreveryoung":
+		{
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions":
+			{
+				"item":
+				{
+					"items": "minecraft:name_tag",
+					"components":
+					{
+						"minecraft:custom_name": "foreveryoung"
+					}
+				}
+			}
+		},
+		"forever_young":
+		{
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions":
+			{
+				"item":
+				{
+					"items": "minecraft:name_tag",
+					"components":
+					{
+						"minecraft:custom_name": "forever_young"
+					}
+				}
+			}
+		},
+		"forever young":
+		{
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions":
+			{
+				"item":
+				{
+					"items": "minecraft:name_tag",
+					"components":
+					{
+						"minecraft:custom_name": "forever young"
+					}
+				}
+			}
+		},
+		"Forever Young":
+		{
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions":
+			{
+				"item":
+				{
+					"items": "minecraft:name_tag",
+					"components":
+					{
+						"minecraft:custom_name": "Forever Young"
+					}
+				}
+			}
+		},
+		"foreverOld":
+		{
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions":
+			{
+				"item":
+				{
+					"items": "minecraft:name_tag",
+					"components":
+					{
+						"minecraft:custom_name": "foreverOld"
+					}
+				}
+			}
+		},
+		"ForeverOld":
+		{
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions":
+			{
+				"item":
+				{
+					"items": "minecraft:name_tag",
+					"components":
+					{
+						"minecraft:custom_name": "ForeverOld"
+					}
+				}
+			}
+		},
+		"foreverold":
+		{
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions":
+			{
+				"item":
+				{
+					"items": "minecraft:name_tag",
+					"components":
+					{
+						"minecraft:custom_name": "foreverold"
+					}
+				}
+			}
+		},
+		"forever_old":
+		{
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions":
+			{
+				"item":
+				{
+					"items": "minecraft:name_tag",
+					"components":
+					{
+						"minecraft:custom_name": "forever_old"
+					}
+				}
+			}
+		},
+		"forever old":
+		{
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions":
+			{
+				"item":
+				{
+					"items": "minecraft:name_tag",
+					"components":
+					{
+						"minecraft:custom_name": "forever old"
+					}
+				}
+			}
+		},
+		"Forever Old":
+		{
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions":
+			{
+				"item":
+				{
+					"items": "minecraft:name_tag",
+					"components":
+					{
+						"minecraft:custom_name": "Forever Old"
+					}
+				}
+			}
+		}
+	},
+	"requirements":
+	[[
+		"foreverYoung",
+		"ForeverYoung",
+		"foreveryoung",
+		"forever_young",
+		"forever young",
+		"Forever Young",
+		"foreverOld",
+		"ForeverOld",
+		"foreverold",
+		"forever_old",
+		"forever old",
+		"Forever Old"
+	]],
+	"rewards":
+	{
+		"function": "craftify:forever_young_check"
+	}
+}
