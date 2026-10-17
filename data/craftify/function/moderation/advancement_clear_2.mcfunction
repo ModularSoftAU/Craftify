@@ -1,1 +1,1 @@
-gamerule announceAdvancements true
+gamerule show_advancement_messages true

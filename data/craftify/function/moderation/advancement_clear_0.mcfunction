@@ -1,3 +1,3 @@
-gamerule announceAdvancements false
+gamerule show_advancement_messages false
 schedule function craftify:moderation/advancement_clear_1 2
 schedule function craftify:moderation/advancement_clear_2 5
