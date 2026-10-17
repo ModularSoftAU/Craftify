@@ -24,7 +24,7 @@
 					"entity": "attacker",
 					"predicate":
 					{
-						"type": "minecraft:player"
+						"minecraft:entity_type": "minecraft:player"
 					}
 				}
 			]
