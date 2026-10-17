@@ -1,3 +1,3 @@
 gamerule announceAdvancements false
-schedule function craftify:admin/advancement_clear_1 2
-schedule function craftify:admin/advancement_clear_2 5
+schedule function craftify:moderation/advancement_clear_1 2
+schedule function craftify:moderation/advancement_clear_2 5

@@ -1,7 +1,8 @@
 {
-	"pack": 
+	"pack":
 	{
-		"pack_format": 48,
+		"min_format": [107, 1],
+		"max_format": 107,
 		"description": "Tailored specifically to the way Minecraft is played, our hand crafted pack enhances your gameplay with revamped mechanics and recipes."
 	}
 }
